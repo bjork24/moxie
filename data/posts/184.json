@@ -1,0 +1,111 @@
+{
+  "id": 184,
+  "title": "Don't forget...",
+  "body": "If you pre-ordered a limited edition Moxie Blog t-shirt and haven't paid for it yet, your shirt will be released into the wild this evening. ALSO, there are two new phlogs patiently awaiting your approval.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2005-04-04T18:39:01.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "justin",
+      "body": "Are they endangered yet?",
+      "created_at": "2005-04-04T18:54:43.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "The phlogs? No, they're not endangered at all.",
+      "created_at": "2005-04-04T18:57:08.000Z"
+    },
+    {
+      "author": "justin",
+      "body": "No, the wild shirts.",
+      "created_at": "2005-04-04T18:57:48.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Oh, THOSE! Their numbers are dwindling quickly.",
+      "created_at": "2005-04-04T19:01:05.000Z"
+    },
+    {
+      "author": "Aaron Scott",
+      "body": "Has anyone noticed that if you mix up the letters of \"Tarnation,\" you get \"Tarantino?\" Coincidence?",
+      "created_at": "2005-04-04T20:41:37.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Amazing.",
+      "created_at": "2005-04-04T20:43:41.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Hmmm...The character in \"My So Called Life\" that you never see, but everyone always mentions, is named \"Tino.\"  As in, (Angela to Rayanne) \"Didya hear Tino is having a party on Thursday?\"  \r\nCoincidence?\r\nProbably.\r\n\r\nIf you have no idea what the hell I'm talking about, sorry, you missed out.  Best. Show. Ever.\r\nAnd, yes, I'm including \"Cheaters.\"",
+      "created_at": "2005-04-04T20:52:27.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "But are you including \"Wild Oats?\"",
+      "created_at": "2005-04-04T20:54:46.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Mine were sewn long ago, good buddy.",
+      "created_at": "2005-04-04T20:59:24.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "\"Sown\" would be the traditional method, but apparently I prefer the excruciating pain of needle and thread.",
+      "created_at": "2005-04-04T21:03:19.000Z"
+    },
+    {
+      "author": "Evan Erwin",
+      "body": "I happily paid for mine, am waiting for it to arrive in the mail. This is then followed by a subsequent rant from my wife that consists of lines like \"What the hell are you doing spending money on this.\"\r\n\r\nAh, marriage.",
+      "created_at": "2005-04-04T21:05:33.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Ah, yes. Marital bliss. I know thee well.",
+      "created_at": "2005-04-04T21:16:10.000Z"
+    },
+    {
+      "author": "Carl",
+      "body": "Some times it is just better to keep the wifes a little bit in the dark about these spendings of our hard earned cash.",
+      "created_at": "2005-04-04T21:20:21.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I get in trouble if I buy a meal at Taco Bell.",
+      "created_at": "2005-04-04T21:21:01.000Z"
+    },
+    {
+      "author": "nicole",
+      "body": "Hey now. The only reason I scold is because I bring my lunch every single day to work. And I'd much rather have taco bell than a granola bar, fruit snacks, and cheese slices.",
+      "created_at": "2005-04-04T23:29:00.000Z"
+    },
+    {
+      "author": "Rachel",
+      "body": "Hey, speaking of t-shirts...when am I getting mine?  I'm running out of clean clothes!",
+      "created_at": "2005-04-05T00:36:20.000Z"
+    },
+    {
+      "author": "Mark",
+      "body": "Any update on the additional shipping costs for delivery to the UK?\r\n\r\nM",
+      "created_at": "2005-04-05T19:14:02.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Mark: looks like it'll be about $8 to ship to the UK.",
+      "created_at": "2005-04-05T19:17:56.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

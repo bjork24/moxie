@@ -1,0 +1,66 @@
+{
+  "id": 43,
+  "title": "Untitled 01",
+  "body": "I often find that the hardest part of writing a new post is making the first sentence sound right. I've been trying to write a decent sounding sentence for the last 20 minutes, but nothing is working for me. I've changed the topic of this post at least three times, each time hoping that the new topic will inspire a good start-off sentence, but, unfortunately, this little paragraph about how I've NOT been able to find the right sentence is all I've come up with. Pathetic.\r\n\r\n<b>Attempt 1:</b> I'm proud to say that I've conquered...\r\n\r\n<b>Attempt 2:</b> I'm proud to announce that I've slain the CSS-P dragon...\r\n\r\n<b>Attempt 3:</b> I'm proud to announce that I've slain the CSS-P donkey...\r\n\r\n<b>Attempt 4:</b> As of last Saturday, I'm proud to announce that I've slain the CSS-P dragon, thanks in part to the box model hack...\r\n\r\n<b>Attempt 5:</b> Parents just don't understand.\r\n\r\n<b>Attempt 6:</b> I've been writing this blog for close to two and a half months...\r\n\r\n<b>Attempt 7:</b> I've been chronicling our progress for nearly two and a half months...\r\n\r\n<b>Attempt 8:</b> AHHHHHHHHHHHHHHHHHH...\r\n\r\n<b>Attempt 9:</b> Call me Ishmael.\r\n\r\nSo, here goes nothing:\r\n\r\nYou know, I've been writing this here blog for darn near two and a half moons, and never once have I taken the time to talk about my current job. In fact, I think the only time I ever mentioned my job was way back in my very <a href=\"1\">first post</a> when I introduced myself to the internet. \"My name is Dan and I'm currently a 23 year old Web Engineer for one of the world's largest textbook publishing companies.\" Oh, to be 23 again! How the times have changed.\r\n\r\nMy full title is Electronic Production Engineer (EPE), which really doesn't shed much light on what I actually do. My department, which is called eProduction, is responsible for maintaining the online presence of all our company's health journals. I won't mention any of the titles we publish, for fear of fiery damnation, but I'm sure the majority of you would recognize at least one or two of them. Our titles are targeted towards health professionals - doctors and surgeons of every conceivable specialty, dentists, vetrinarians, etc. - which means the articles are anything but light, summertime reads. My job is to ensure the timeliness and quality of the online articles in accordance to their print counterparts. In essence, every time a new issue of a journal is printed, I have to make sure that the online version matches the print version as closely as possible.\r\n\r\nEach EPE is assigned between 20 to 30 titles for which they're responsible. I have 28 titles in my corral. Some days I'll have 4 or 5 journals to check, other days I won't have any. It all depends on the time of the month and the frequency of publication for each specific journal. Whenever a journal comes up for review, I open two browser windows (one for the online version and one for the print PDF) and slowly, tediously scan down the screen and compare the two. If there's a rendering error, which rarely occur, I mark it down and send it to the appropriate Senior EPE.\r\n\r\nOne of the articles I checked today was entitled, <u>Transcervical artificial insemination in donkeys: effects of a new transcervical artificial insemination instrument and traversing the cervix on pregnancy and assing rates*</u> (*the subject species has been changed to disguse the actual article AND to make an attempt at cheap, bawdy humor). Of course, we're not actually expected to <i>read</i> these articles, instead we're told to scan down the page, assure that the tables have rendered properly, the page numbers coincide, the links work properly, and the citations are displayed correctly, among other things. After several hours of this, your eyes glaze over, your lips become chapped, and you start feeling like a <a href=\"http://img54.imageshack.us/img54/8315/gelfling.jpg\" target=\"_blank\">gelfling who's had his or he\r\nr life sucked out</a>. My job is SO boring, that I'm falling asleep just writing about it.\r\n\r\nAlthough my eyes might be busy checking articles for broken images and links, my mind is in a galaxy far, far away. Thinking about... the... theater... of course. I can't continue this post. I have successfully bored myself to tears.\r\n\r\nUgh.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-08-04T04:02:20.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Newell",
+      "body": "At least you have a steady job. I'm out of work now and have been for three months. Three months with NO source of income whatsoever is not a happy thing. Right now I'd take boring and tedious as long as there was a paycheck involved.",
+      "created_at": "2004-08-04T04:50:16.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Newell, good luck with the job hunt. I hope you find something that makes you happy... and doesn't involve... bad... stuff.",
+      "created_at": "2004-08-04T05:44:54.000Z"
+    },
+    {
+      "author": "squeak",
+      "body": "lol @ title of article. I went from 2 years of art school and dreams of being famous but when it came time to lop off an ear I changed professions and work in the medical field for awhile. Now following my husbands dreams of restoring old british bikes - my job is just as tedious - I push paper, cont beans ... UGH. Maybe I should lop off an ear &gt;:)\r\n\r\nFinally figured out CSS? congrats! I'm still semi lost in &lt;li&gt; and &lt;div id=\"...\"&gt; land. One day the light will go on and someone will be home.",
+      "created_at": "2004-08-04T05:56:55.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Squeak, be different, chop off a toe... or a mole. Good luck with the CSS. I rebuilt this entire blog with CSS-P today, which was the original purpose for this post. More on that a little later.",
+      "created_at": "2004-08-04T07:49:45.000Z"
+    },
+    {
+      "author": "whit",
+      "body": "I am glad to know I am not the only one in a boring, tedious job.  Actually - and this is entirely to make me feel better - yours sounds worse than mine.  But, when I took this job, I would have sold my soul for health care.   That's me, soulless and healthy!",
+      "created_at": "2004-08-04T08:24:44.000Z"
+    },
+    {
+      "author": "Oz",
+      "body": "I think you forgot to list one of your opening sentences:  \"Where's my hat?\"",
+      "created_at": "2004-08-04T19:10:25.000Z"
+    },
+    {
+      "author": "Stephanie",
+      "body": "My hubby was the IT guy for Sybex for a number of years, till we moved to TN.  Book publishing is an interesting business!\r\nHe also did some tech editing, as well as writing a few himself...you can buy his books on Amazon!",
+      "created_at": "2004-08-04T19:44:42.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Whit, I'm glad I could make you feel better about your job.\r\n\r\nOz, indeed I did. By the way, you haven't happened to see my hat, have you?\r\n\r\nStephanie, book publishing is an interesting business, as long as you don't work in it. I'll write a book one day... I'm not sure what it will be about, but that's never stopped me before.",
+      "created_at": "2004-08-04T20:06:37.000Z"
+    },
+    {
+      "author": "Amy",
+      "body": "Wow, Dan. You made our job sound better than it really is. Amazing. So to everyone who thought his description was dull and boring. Just think, it's actually much worse than that in reality. As Dan's co-worker and a movie lover, I have I'm very excited that he and Nicole are pursuing this wonderful adventure but saddenly by the prospect of losing one of the cooler people I work with. Dan sits across from me and the thought of someone annoying or boring sitting by me sends chills down my spine. Cause I've been there and mister, it ain't pretty.",
+      "created_at": "2004-08-06T21:33:01.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Day-to-day"
+    },
+    {
+      "id": 13,
+      "name": "Other job"
+    }
+  ]
+}

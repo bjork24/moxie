@@ -1,0 +1,47 @@
+{
+  "id": 79,
+  "title": "Expiration dates",
+  "body": "Much to the chagrin of Nicole and starving children the world over, I refuse to eat or drink anything past its expiration date. If the milk says \"BEST IF USED BY OCT 25\" and I wake up at 1:15 AM on October 26th for a late-night snack, I won't touch it.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-10-26T22:14:46.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "dave",
+      "body": "i'm that way about canned plankton.",
+      "created_at": "2004-10-26T23:41:46.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I steer clear of canned food altogether. Botulism frightens me.",
+      "created_at": "2004-10-26T23:47:04.000Z"
+    },
+    {
+      "author": "Luke",
+      "body": "I eat a lot of canned food, but if I find one dent in the can, it might as well be canned botulism as far as I'm concerned.",
+      "created_at": "2004-10-27T00:02:39.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Damn botulism and all it's kin!",
+      "created_at": "2004-10-27T00:07:30.000Z"
+    },
+    {
+      "author": "Nicole",
+      "body": "Mmmm, canned pumpkin. I'll eat it every day, all day long.",
+      "created_at": "2004-10-27T01:37:41.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I've got to quit buying that stuff for her!",
+      "created_at": "2004-10-27T01:49:11.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 12,
+      "name": "Thoughts"
+    }
+  ]
+}

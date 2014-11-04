@@ -1,0 +1,36 @@
+{
+  "id": 476,
+  "title": "Moxie closings",
+  "body": "The Moxie was closed yesterday, Saturday, January 13th, due to a complete power outage downtown. Our power just came back on, but we are remaining closed today, Sunday, January 14th, due to the intermittent status of the power, and the inclement weather. Assuming we have power tomorrow, we will be open with our regularly scheduled movies. We apologize for the inconvenience.\r\n\r\nBe safe and warm, everyone!",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2007-01-15T01:48:47.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "dan",
+      "body": "Woops! Fixed! Thanks! Ian!",
+      "created_at": "2007-01-16T01:19:00.000Z"
+    },
+    {
+      "author": "Ian",
+      "body": "Dan, your fly is open.",
+      "created_at": "2007-01-16T01:17:42.000Z"
+    },
+    {
+      "author": "Master RJ",
+      "body": "Oh, I thought it said \"Moxie catalog\", where you order Moxie hats, T-shirts, popcorn tins, pins, mouse pads, pomades, vibrators, fishing lures, fake Oscar statues, vintage chopsticks and what not.",
+      "created_at": "2007-01-15T02:19:10.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Informative"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

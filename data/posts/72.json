@@ -1,0 +1,37 @@
+{
+  "id": 72,
+  "title": "Hairy application",
+  "body": "We didn't get our loan request sent out on Friday. After staring blankly at the ten page application, we decided we might need a little help filling it out. So, since Nicole and I are on vacation this week, we're making a quick trip down to Springfield today and having a sit down with my mom, the banker, and my sister, the CPA. Then we'll personally deliver our loan application to the SFDC tomorrow. So, if you think about it, we're really only behind schedule by one day, because had we mailed it on Friday it wouldn't have arrived in Springfield until today. So there!\r\n\r\nAlthough the application is incredibly hairy, our business plan is as solid as it will ever be, so I have faith that it will overshadow our paltry financial backgrounds. That's the news for today... back in a bit.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-10-11T17:40:25.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "whitty",
+      "body": "It wouldn't have arrived today, because it is Columbus day and the post office is closed.  So you aren't behind at all.",
+      "created_at": "2004-10-11T20:24:17.000Z"
+    },
+    {
+      "author": "Luke",
+      "body": "Good call Whitty.\r\n\r\nGood luck guys.  Hope all goes well.",
+      "created_at": "2004-10-11T21:23:49.000Z"
+    },
+    {
+      "author": "Tim",
+      "body": "A day late eh?  You better finish all the extra credit questions.",
+      "created_at": "2004-10-11T22:37:19.000Z"
+    },
+    {
+      "author": "Oz",
+      "body": "Cool.  How long until you get a response from the bank?",
+      "created_at": "2004-10-12T00:29:16.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

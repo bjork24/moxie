@@ -1,0 +1,27 @@
+{
+  "id": 78,
+  "title": "I'm sad",
+  "body": "Not really. I just wanted to break my self-imposed, apostrophe-free post title record. You see, up until this point, none of the post's titles have ever had an apostrophe in them... it would've screwed up my hand-made comment system, but not anymore! I have a bright, apostrophe-filled future to look forward too!",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-10-26T20:28:23.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Oz",
+      "body": "But this is good news!  Why not title your post \"I'm Ecstatic that I Have Apostrophe Freedom!\"?",
+      "created_at": "2004-10-26T23:39:26.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I was aiming for pity points.",
+      "created_at": "2004-10-26T23:46:31.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    }
+  ]
+}

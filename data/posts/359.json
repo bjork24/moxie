@@ -1,0 +1,209 @@
+{
+  "id": 359,
+  "title": "Wait a minute",
+  "body": "Looks like the general consensus is that everyone is okay with waiting, which is a good thing since we all know had I made the site live today, I'd never get around to making it work 100%. Please note, though, that version 2.0 isn't going to be a HUGE change, so don't get <i>too</i> excited. Most of the stuff you're already used to (blog, calendar, forum) will stay virtually unchanged. The big difference will be the little pages I never got around to finishing in version 1.0 of the Moxie Online Experience, or MOE.\r\n\r\nHowever, since you were all kind enough to let me off the hook for another week, I'll give you a quick glimpse of what's to come. Of course, none of the links work, as the development server points to the live server, but I'll tour you through the main parts:\r\n\r\n<a href=\"http://www.theupdater.com\" class=\"broken\">The new homepage</a> - All the important information is now dynamically gathered on the homepage, so you could theoretically visit this one page and know what's happening at the theater, on the blog, and on the forums.\r\n\r\nThe <a href=\"http://www.theupdater.com/47\" class=\"broken\">movie view</a>, <a href=\"http://www.theupdater.com/calendar.php\" class=\"broken\">calendar</a>, and <a href=\"http://www.theupdater.com/forum\" class=\"broken\">forum</a> all look pretty much the same.\r\n\r\nThe <a href=\"http://www.theupdater.com/blog\" class=\"broken\">blog's front page</a> has changed a little, but nothing too drastic. I think the biggest change to the blog will be with the commenting system, but I'm not at liberty to go further into detail.\r\n\r\nThe new <a href=\"http://www.theupdater.com\" class=\"broken\">movie archive page</a> is kind of fun for those of you who can't remember which day you saw what movie.\r\n\r\nAnd I think that's enough for now (I've gotta keep something hidden for the big reveal). I focused most of the changes around a new and much simpler navigation system, a cleaner mod_rewrite structure, categorization of pages, and scalability. Not only will MOE 2.0 offer better RSS feeds, but it will also have an API for people who want to list Moxie content (i.e. upcoming movies, etc.) on their own sites.\r\n\r\nAnd now that I've proven my complete geekiness, I will return to reading <a href=\"http://www.digg.com\" target=\"_blank\">digg</a>. I'm looking forward to hearing all of your opinions about the new website (including the ones about how you think it's too pink, how I'm a sellout for including Google ads, and how the Firefox button is too freakin' huge). Give me what you got... I can take it.\r\n\r\nPS - if you have any last minute requests for features, please let me know.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2006-02-02T06:44:43.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "--Jeff",
+      "body": "Awesome.  It's clean, well-organized, and all of the new features (RSS feeds, maybe even the API) will be utilized by geeks like me.  \r\n\r\nOh, and I like the rather large Firefox button. Seriously, folks, if you're not using FF yet, <i>download it now.</i>  Best thing you could do for your computer. ",
+      "created_at": "2006-02-02T07:03:38.000Z"
+    },
+    {
+      "author": "Dave Adams",
+      "body": "The Firefox link <i>is</i> too huge. Way too huge. Firefox is rad, but the Moxie website is not really the place to push it. And I've always found \"Optimized for...\" buttons--be they for IE, Netscape, Moz, Firefox, or Lynx--annoying.\r\n\r\nBut then, ultimately if that's my biggest complaint, you've clearly done a fantastic job, Dan. I love the new look.",
+      "created_at": "2006-02-02T08:05:19.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "The Firefox ad is actually a placeholder for a rotating local ad spot, should anyone ever choose to buy one.",
+      "created_at": "2006-02-02T08:14:09.000Z"
+    },
+    {
+      "author": "Matthew Martin (aka R.J. Jack MacReady Burton)",
+      "body": "Add a average grading scale for each film (members only, hopefully it doesn't get out of hand, ala IMDb).",
+      "created_at": "2006-02-02T08:27:12.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "You know, RJ, I considered that way back in the beginning, but I didn't what people going over the top and totally panning a film, which would adversely affect the movie-going decision of someone reading the website. If people want to rate the film, they can do so at other sites... this one excluded.",
+      "created_at": "2006-02-02T08:30:37.000Z"
+    },
+    {
+      "author": "Matt",
+      "body": "The 1px little gap between the blue/green titles and the white content areas where the background shows through is kinda annoying.\r\n\r\nOther than that, I quite like it.  Especially the navigation system, so much more logical.",
+      "created_at": "2006-02-02T10:49:30.000Z"
+    },
+    {
+      "author": "nathan springer",
+      "body": "would like to see a \"true\" red some place, maybe the header background. i think red plays to big of a role in moxie not to put it on the website, ie: background of logo and walls of the theater.",
+      "created_at": "2006-02-02T11:16:44.000Z"
+    },
+    {
+      "author": "Monkey",
+      "body": "Firefox....Ad....not....BIG...ENOUGH!\r\n\r\nand yes, the page is WAY TOO PINK",
+      "created_at": "2006-02-02T17:37:32.000Z"
+    },
+    {
+      "author": "Monkey",
+      "body": "there is definitely a bug related to text size, as Matt points out above. In Firefox try adjusting your font size to see the result with a bigger font. Unfortunately, some computers actually have the larger font set as a default and it messes with your layout pretty badly.",
+      "created_at": "2006-02-02T17:39:23.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Again, \"totally understand.\"",
+      "created_at": "2006-02-02T19:43:00.000Z"
+    },
+    {
+      "author": "brian of moore",
+      "body": "ive seen moe. in concert 7 times\r\nits supposed to be in lower case btw..\r\nmoe.\r\n\r\nlooking quite good... and amazingly even more useful than before... bravo\r\nas for the peptobismal pink... it makes me kinda nauseous.. ... im sure someone likes it... maybe... well apparently you do.. so thats one person... and thats more than i would have guessed \r\n:-)\r\nperhaps if it faded into the darker red.. instead of the pepto... but who really needs asthetics.. when you have usefulness anyway ;p",
+      "created_at": "2006-02-02T20:52:54.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Matt: you must be using IE. I've tried and tried to fix that gap, but unless I use negative margins and TWO box hacks (which are both non-standards compliant) it won't go away. It makes me mad.\r\n\r\nMonkey: people who change their font size are the bane of all developers who design with static layouts. Same thing happens with version 1.0. Either way, I'm not going to lose any sleep over it... and I'm definitely not going to use an elastic layout.",
+      "created_at": "2006-02-02T21:52:44.000Z"
+    },
+    {
+      "author": "Jonathan T.",
+      "body": "yo yo dan, i know you'd be more than happy to share some of your wisdom with a wannabe theater owner.  i've got a question or two that only an owner could answer.  hit me up with an email if you get the chance.  thanks.",
+      "created_at": "2006-02-02T22:58:21.000Z"
+    },
+    {
+      "author": "nathan springer",
+      "body": "YES now that is what i am talking about!",
+      "created_at": "2006-02-02T23:07:49.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Still totally understanding!",
+      "created_at": "2006-02-02T23:28:15.000Z"
+    },
+    {
+      "author": "matt",
+      "body": "the fade to dark red works much better than the previous fade to mauve.",
+      "created_at": "2006-02-03T00:22:01.000Z"
+    },
+    {
+      "author": "Rachel",
+      "body": "You know how MS Word lets you have a little paper clip as an \"assistant\" should you so choose? I think your website should have a helpful film reel...you could call him Filmy! I will assume that if you don't take my suggestion that you hate me. No pressure.",
+      "created_at": "2006-02-03T00:26:28.000Z"
+    },
+    {
+      "author": "Jared",
+      "body": "I have experienced the same frustration with a single pixel spacing between different colored bars.  It is absolutely maddening, but unlike Dan, I actually did lose sleep at night, trying to figure out how to fix it.  Oh yeah, my first web development experience was creating the web site for my the small used bookstore my wife and i own.  Dan, the blog has been great.  Have been reading it for months now.  Moxie rocks.",
+      "created_at": "2006-02-03T00:45:11.000Z"
+    },
+    {
+      "author": "monkey",
+      "body": "Dan, if you can't figure out the spacing problem, let me have a crack at it. I think that it can be fixed, even for IE, without too much bad hackery.",
+      "created_at": "2006-02-03T02:25:58.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I appreciate the help, Monkey, but I think I might change that entire element anyways. It doesn't quite jive with the dark red now.",
+      "created_at": "2006-02-03T03:02:02.000Z"
+    },
+    {
+      "author": "brian of moore",
+      "body": "aww shiz! the pepto is gone!\r\nthe darker red looks stunningly beautiful\r\n.. just like your beard in the moonlight after ive had too many white russians\r\n\r\nerr.....",
+      "created_at": "2006-02-03T04:19:49.000Z"
+    },
+    {
+      "author": "Matt",
+      "body": "Dan, actually, I was using Safari.  I get sick using IE even for testing.\r\n\r\nI do like the tweaked version better - it just seems to really pop now.",
+      "created_at": "2006-02-03T05:09:45.000Z"
+    },
+    {
+      "author": "Caleb",
+      "body": "Dan, while I loved the previous \"look\" with the mauve, I am really digging the red even more. I say finish it to its full extent before releasing it. Getting input from readers was a great idea. The current design has been so nifty through the months and we need to mourn its passing before MOE 2.0 (err...3.0?) comes along. ",
+      "created_at": "2006-02-03T05:42:19.000Z"
+    },
+    {
+      "author": "--Jeff",
+      "body": "Hmmm.. Is anyone else having this problem with the new Dark Red (MOE3?) version: \r\n\r\n<a href=\"http://img141.imageshack.us/my.php?image=darkred4hk.jpg\" target=\"_blank\"><img src=\"http://img141.imageshack.us/img141/9619/darkred4hk.th.jpg\" border=\"0\" alt=\"Free Image Hosting at www.ImageShack.us\" /></a>\r\n\r\nI'm using Firefox 1.5.0.1 under Linux.  Mozilla 1.0.2 (yeah, it's old. I know) seems to render it fine, so I'm betting it's a FF issue. Anyone else?  I'm sure I'm in the very, very small minority so it's not a big deal...Just want to know if it's me. \r\n",
+      "created_at": "2006-02-03T07:07:29.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Jeff, that's a cache problem. Nicole had the same problem, so we purged the cache and everything worked fine.",
+      "created_at": "2006-02-03T07:21:42.000Z"
+    },
+    {
+      "author": "brian of moore",
+      "body": ".. yeah.. i was confused on that for about 2 and a half seconds as well... \r\ninstead of purging all the cache.. its easier just to go <a href=\"http://www.theupdater.com/pix/parts/bg.gif\">here</a> to the background image and hit refresh on your browser.. then go back to the <a href=\"http://www.theupdater.com\">page</a>",
+      "created_at": "2006-02-03T08:27:33.000Z"
+    },
+    {
+      "author": "--Jeff",
+      "body": "<i>Jeff, that's a cache problem. Nicole had the same problem, so we purged the cache and everything worked fine.</i>\r\n\r\nWow.  Funny what happens when you try the simple stuff. \r\n\r\nSomething about forest... and the trees... and not being able to see one for the other...:) \r\n\r\nThanks Dan and Brian! ",
+      "created_at": "2006-02-03T08:55:16.000Z"
+    },
+    {
+      "author": "--Jeff",
+      "body": "Oh, and yes: I'm a moran.\r\n\r\n<a href=\"http://img58.imageshack.us/my.php?image=morans4jl.jpg\" target=\"_blank\"><img src=\"http://img58.imageshack.us/img58/2953/morans4jl.th.jpg\" border=\"0\" alt=\"Free Image Hosting at www.ImageShack.us\" /></a>",
+      "created_at": "2006-02-03T08:58:07.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I love that photo!",
+      "created_at": "2006-02-03T09:15:45.000Z"
+    },
+    {
+      "author": "erin",
+      "body": "this is much to much technical talk for me. but it LOOKS beautiful. and well organized. three thumbs up.",
+      "created_at": "2006-02-03T09:53:52.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Remember on Star Trek how they used to get out of dire situations by the Chief Engineering just rejiggering the spectrometer reverse talchion beam to hyper-frequency range.  I heard that, in the scripts, the writers would just write \"scientific gobbledygook\" and then fill in generic jargon later.\r\n\r\nYeah, that's like this.",
+      "created_at": "2006-02-03T19:34:32.000Z"
+    },
+    {
+      "author": "--Jeff",
+      "body": "A tachion beam requires 1.21 jigawatts of power. :)\r\n",
+      "created_at": "2006-02-03T20:06:25.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Hey I just heard the Moxie sponsorship on NPR!  So altruistic!",
+      "created_at": "2006-02-03T22:35:30.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "We basically own Fridays on NPR now. We sponsor Morning Edition, Classical Time, Fresh Air, and All Things Considered. I drew the line on Jazz Excursions though. You know how we feel about jazz, Nate.",
+      "created_at": "2006-02-03T22:43:23.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "I feel the same.\r\n\r\nIs it really called Classical Time?  Or did you just make that up?  It seems like it should have an exclamation point, like a kids show about Mozart:  Classical Time!",
+      "created_at": "2006-02-03T22:47:01.000Z"
+    },
+    {
+      "author": "monkey",
+      "body": "I'm really liking the latest version of your design in progress... great work, the all-knowing infamous trench will be pleased and he might possibly spare your soul.",
+      "created_at": "2006-02-04T01:48:40.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 4,
+      "name": "Informative"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    },
+    {
+      "id": 11,
+      "name": "Techish talk"
+    }
+  ]
+}

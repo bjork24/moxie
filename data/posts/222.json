@@ -1,0 +1,136 @@
+{
+  "id": 222,
+  "title": "Projection clarification",
+  "body": "After reading the comments from yesterday's post, I decided some further clarification might be in order. First, let me illustrate how the projector will be set up:\r\n\r\n<img src=\"http://moxie.danchilton.com/pix/grum/052605/projector2.gif\" width=\"425\" />\r\n\r\nThis is what our 35mm projector will look like once it's been installed... only it won't be a silhouette, it will be REAL! The two big circles represent the reels. The film is fed from the top reel, through the projector (the little box between the reels), and onto the take-up reel on the bottom. As the film is moving through the projector, the lamphouse (the long rectangle positioned directly behind the projector) blasts light through the port and out through the lens. This is the only configuration that will work with the limited space in our booth.\r\n\r\nThe red line illustrates the height to various points on the projector.\r\n\r\n- 48\" from the base to the center of the lens\r\n- 6\" from the lens center to the top of the projector\r\n- 2\" from the top of the projector to the base of the reel\r\n- 26\" is the diameter of the feed reel\r\n\r\nSo, when everything's said and done, we're looking at a total height of roughly 82\", or 6'10\". Now, the ceiling in the projection booth is 8 feet off the floor, which means we could build a one foot platform and the top of the feed reel would still be a good 2 inches away from the ceiling. That would also mean the center of the lens would be 7 feet off the floor of the auditorium. Not <i>too</i> bad, but not <i>too</i> good either. If we can make a 1 foot cut-out in the booth ceiling, the lens would be 8 feet off the auditorium floor and I'd be a happy camper.\r\n\r\n<a href=\"http://www.ncoleman.com/blog/\" target=\"_blank\">Nicholas</a> suggested we use mirrors to move the image, which isn't a bad idea. There are a handful of theaters that use a \"periscopic projection system\" (like <a href=\"http://www.film-tech.com/warehouse/pics/dupont/dupont.html\" target=\"_blank\">this one</a>), but this is typically done as a last case effort to squeeze a theater into an awkward space.\r\n\r\nWhen you're dealing with periscopic projection, you have to use expensive \"first surface\" mirrors - meaning the reflective surface is on the top, not the bottom (as is the case with standard mirrors). Also, the mirrors have to be keep incredibly clean, since any dust on either mirror will show up as huge fuzzy spots on the screen. On top of that, the booth would need to be kept completely dark or else the mirrors will reflect the ambient light, which would result in an image brightness loss of 30% or more! Lastly, the mirrors have to be securely anchored or else the slightest shimmer will cause the screen image to bounce around like crazy. It's also really hard to focus the image when you use a periscopic system.\r\n\r\nOther than that, it's a pretty good... I guess. Just not for us.\r\n\r\n<img src=\"http://moxie.danchilton.com/pix/grum/052605/floor.jpg\" width=\"425\" />\r\n\r\nAnother suggestion, given by my lovely (short-haired) <a href=\"http://www.cincodrive.com\" target=\"_blank\" class=\"broken\">sister-in-law</a>, was to lower the floor. That, like the periscope idea, is feasible, but would cost much, much, MUCH more than our budget would allow. Also, you have to remember that the floor in our building is composed of 5 inches of solid concrete... with nothing below it. No crawl space, no basement, not even a single pipe, which is the main reason we can't put a drain in the Cinebar. That, and the fact that we don't want to disturb the miniature Alex Winters who lives in a cave beneath the auditorium.\r\n\r\nWEE!\r\n\r\nAs for First Friday, I think I know what we're going to do... but I can't tell you. Not yet. You'll just have to wait and see.\r\n\r\nWEE!",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2005-05-26T22:01:20.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Sam Spade",
+      "body": "oooh, my foist first post!",
+      "created_at": "2005-05-26T22:12:33.000Z"
+    },
+    {
+      "author": "Sam Spade",
+      "body": "It sounds like the only way for you to go then is up. How much would the periscope system set you back? I'm assuming that this isn't something you can do with a few extra 2 by 4's and a vanity mirror.",
+      "created_at": "2005-05-26T22:20:12.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Carving a hole in the ceiling would cost ~$80.\r\nBuilding a periscopic system would cost ~$750.\r\nLowering the floor would cost ~$30,000.",
+      "created_at": "2005-05-26T22:22:57.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Correctly using the ~ symbol: priceless",
+      "created_at": "2005-05-26T22:23:19.000Z"
+    },
+    {
+      "author": "nicholas",
+      "body": "$750 isn't bad if it <i>completely</i> solves the problem. I say go with the option that most definitively solves the problem--when it comes to projection, you cannot even think about skimping. Once that bugger is installed, you're not going to have the option of switching to something better. Raising it--though inexpensive, and quick--should be examined as whether the <i>best</i> solution before implemented. Remember--the projection <i>is</i> the theater. If it's not good, people won't come see movies. (Can you italicize more than me?)",
+      "created_at": "2005-05-26T22:49:38.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "$750 was a shot in the dark. It could very well be more than that. Even still, direct projection is the <i>best</i> solution, hands down. The picture will be as bright, crisp, and focused as possible. I'd much rather deal with the occasional head shadow when someone stands up than the risk of having a dusty/shaky/blurry picture. In the end, building a platform will preserve the clarity of the presentation, which, like you said, is all-important. Head shadows worry me not, focus does.",
+      "created_at": "2005-05-26T22:55:51.000Z"
+    },
+    {
+      "author": "Tawny",
+      "body": "Have you already purchased the projector? I worked at the Palace many years ago and it seems they had a projector that the film layed on a table and ran from an upper table through the lens to a lower table. I that even a projector? If not, are there any other styles of projector that would fit in your space better? (And still be affordable?)",
+      "created_at": "2005-05-26T23:06:00.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Tawny: The Palace, like most multiplexes, runs off a platter system. That's the preferrable way to go, but we don't have the space for one. There's only 2 choices when it comes to 35mm projection: reel-to-reel or platter.",
+      "created_at": "2005-05-26T23:08:23.000Z"
+    },
+    {
+      "author": "Tawny",
+      "body": "Or, you could just install bean-bag chairs and ask everyone to crawl to their seats!",
+      "created_at": "2005-05-26T23:12:00.000Z"
+    },
+    {
+      "author": "whitty",
+      "body": "Why the hell are people getting up in the middle of the movie anyway!  What with your giant bags o' popcorn and such, no need for refills.  But then there are the giant drinks to consider.  Maybe offering catheters at the Cinebar is another option you should consider?",
+      "created_at": "2005-05-26T23:13:35.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I think I might have overstated the situation. First, all 35mm films will have intermissions. Second, if the lens is moved to 8 foot, only very tall people will be able to cause a shadow... when standing... towards the front. Even then, the shadow will be minimal (a small head floating on the bottom of the screen). I really don't think it will be that big of a problem... it adds kitsch, you know.",
+      "created_at": "2005-05-26T23:16:12.000Z"
+    },
+    {
+      "author": "Evan Erwin",
+      "body": "I don't think a mirror system should even be considered, based on the downsides.\r\n\r\nMan, the pictures make the blog so much better its ridiculous. I say at least 1 Freshly Designed Picture is necessary for proper Moxie blog consumption.\r\n\r\n",
+      "created_at": "2005-05-26T23:20:17.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "And I do a pretty mean \"dog barking\" hand shadow.",
+      "created_at": "2005-05-26T23:22:25.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "And it's Alex Winter.  No \"s\".  Unless there are several, which there may very well be.  Damnable stem cell clones!",
+      "created_at": "2005-05-26T23:37:44.000Z"
+    },
+    {
+      "author": "Pat",
+      "body": "No question, open the ceiling. Gives you the simplest, cheapest, bestest solution. And it gives us a chance to yell clever insults at the pansies with small bladders. I propose a secret blogger's cough/insult like \"Lurch\" when ever a freakishly tall Ozarker blocks the screen. \r\n",
+      "created_at": "2005-05-27T00:08:47.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "The Wookies could be a problem.",
+      "created_at": "2005-05-27T00:11:33.000Z"
+    },
+    {
+      "author": "Matt",
+      "body": "Cut a whole in the ceiling AND create raised 'step up' platforms around the base for ease of access? So you effectively lift the floor a foot too around the projector and have it slightly inset?.. assuming you're not 7ft tall or wear REALLY tall head decoration",
+      "created_at": "2005-05-27T00:34:51.000Z"
+    },
+    {
+      "author": "Fyse",
+      "body": "Correct use of the &#8764; sign. Smoothly done, Dan. Try using &#8733; next time, and slipping a &#8756; in shouldn't be too tricky either. Then you'd be truly AWESOME.",
+      "created_at": "2005-05-27T00:52:24.000Z"
+    },
+    {
+      "author": "matt",
+      "body": "Giant tubs of popcorn, enormous cinebar sodas, a spectacular film not showing anywhere else in town... the only thing you need to make sure no one gets up and disturbs the show: catheters.",
+      "created_at": "2005-05-27T02:29:57.000Z"
+    },
+    {
+      "author": "Jed",
+      "body": "Or you could have a Pee Freely sign and people could sword fight during a movie. Come on guys, remember sword fighting?",
+      "created_at": "2005-05-27T02:49:29.000Z"
+    },
+    {
+      "author": "nicholas",
+      "body": "I second the \"Lurch\" cough as the official denominator of shadow-casters.",
+      "created_at": "2005-05-27T06:39:25.000Z"
+    },
+    {
+      "author": "nicole",
+      "body": "Careful - we don't want to scare away potential movie-goers if they think they'll be \"lurched\" at for not being a blog reader.",
+      "created_at": "2005-05-27T16:24:48.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Do I remember \"sword fighting\"?  Are you kidding?  I remember extensive \"sword fights\" with my brother while making light sabre noises.  Those were some good times man.",
+      "created_at": "2005-05-27T17:08:49.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Informative"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

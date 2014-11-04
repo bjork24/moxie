@@ -1,0 +1,47 @@
+{
+  "id": 75,
+  "title": "Change in the wind",
+  "body": "You might have noticed that the blog is undergoing some changes. You're very perceptive. If you have any questions, please post them here and I'll do my very best to answer them. Until then, keep your eyes on the <a href=\"/moxie\" class=\"broken\">blog.moxiecinema.com</a> sky!",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-10-20T05:19:07.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "matt",
+      "body": "so does this mean no new blog posts until the new site is up or will you still post at least occasionally here?\r\n\r\nrandom thought: half price booze would get me to go to a movie in a snow storm",
+      "created_at": "2004-10-20T08:05:42.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Matt: I'll probably leave a post every once and again... whenever the mood strikes me. The new blog will have a lot more posts, I can promise you that.",
+      "created_at": "2004-10-20T08:16:53.000Z"
+    },
+    {
+      "author": "Oz",
+      "body": "Dan, why have you done this?  Just to confuse people like me?  Just to make people like me update their bookmarks?  As your punishment, I demand that you work and work hard on the new blog, you midwestern slacker.\r\n\r\nKisses.",
+      "created_at": "2004-10-20T17:04:56.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Oz: The answer to all of your questions is \"yes\"... except for the kisses part... no, wait... that's \"yes\" too.",
+      "created_at": "2004-10-20T17:15:13.000Z"
+    },
+    {
+      "author": "Rachel",
+      "body": "You're even more of a tease than Nicole is!",
+      "created_at": "2004-10-21T01:46:35.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Thank you.",
+      "created_at": "2004-10-21T01:51:21.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    }
+  ]
+}

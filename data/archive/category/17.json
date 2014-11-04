@@ -1,0 +1,90 @@
+{
+  "name": "MoxieTV",
+  "desc": "Another episode of The Moxie Blog's award-winning mini-docu-dramedy-noir",
+  "March 2006": [
+    {
+      "day": "14",
+      "id": 381,
+      "title": "MoxieTV Episode #1",
+      "comments": 43
+    },
+    {
+      "day": "20",
+      "id": 383,
+      "title": "More MoxieTV goodness",
+      "comments": 26
+    }
+  ],
+  "April 2006": [
+    {
+      "day": "4",
+      "id": 389,
+      "title": "What's going on at The Moxie these days?",
+      "comments": 8
+    },
+    {
+      "day": "11",
+      "id": 393,
+      "title": "MoxieTV episode #4",
+      "comments": 12
+    },
+    {
+      "day": "18",
+      "id": 396,
+      "title": "MoxieTV Episode #5",
+      "comments": 22
+    }
+  ],
+  "May 2006": [
+    {
+      "day": "2",
+      "id": 402,
+      "title": "Just in the nick of time: a new MoxieTV Episode",
+      "comments": 16
+    },
+    {
+      "day": "9",
+      "id": 405,
+      "title": "Stone Reynolds strikes again",
+      "comments": 4
+    },
+    {
+      "day": "16",
+      "id": 410,
+      "title": "New MoxieTV Episode",
+      "comments": 12
+    }
+  ],
+  "July 2006": [
+    {
+      "day": "26",
+      "id": 435,
+      "title": "Amazing Audition Tape",
+      "comments": 21
+    }
+  ],
+  "December 2006": [
+    {
+      "day": "13",
+      "id": 472,
+      "title": "MoxieTV is back!",
+      "comments": 9
+    }
+  ],
+  "March 2008": [
+    {
+      "day": "11",
+      "id": 532,
+      "title": "Week 1: Exactly how close is the new place?",
+      "comments": 16
+    }
+  ],
+  "April 2008": [
+    {
+      "day": "9",
+      "id": 537,
+      "title": "Week 5: The Moxie's New Neighborhood",
+      "comments": 1
+    }
+  ]
+}

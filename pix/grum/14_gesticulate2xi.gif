@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>ImageShack® - Hosting</title>
+<link rel="stylesheet" href="img/style-def.css" type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="http://www.imageshack.us/favicon.ico">
+<script language=Javascript>
+<!--
+var copytoclip=1
+function HighlightAll(theField) {
+var tempval=eval("document."+theField)
+tempval.focus()
+tempval.select()
+if (document.all&&copytoclip==1){
+therange=tempval.createTextRange()
+therange.execCommand("Copy")
+window.status="Contents highlighted and copied to clipboard!"
+setTimeout("window.status=''",2400);
+}
+}
+
+var url = "http://imageshack.us/";
+var title = "ImageShack.us® - Image Hosting";
+
+function highlight(field) {
+	field.focus();
+  	field.select();
+}
+
+function paypal(){
+   window.open ('http://reg.imageshack.us/paypal.php', 'paypal', config='height=450, width=720, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+}
+
+function ebay(){
+   window.open ('http://reg.imageshack.us/slide/ebay.htm', 'ebay', config='toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, directories=no, status=no');
+}
+
+
+function ftp(){
+   window.open ('http://reg.imageshack.us/slide/ftp.htm', 'ftp', config='toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, directories=no, status=no');
+}
+
+
+
+function mspub(){
+window.open ('http://reg.imageshack.us/img/guide/index.htm', 'mspub', config='height=450, width=740, toolbar=no, menubar=no, scrollbars=yes, resizable=yes, location=no, directories=no, status=no');
+}
+
+
+function favorites(){
+if(document.all)
+window.external.AddFavorite(url,title)
+}
+
+function disableme (what) {
+	what = document.getElementById(what);
+	what.disabled = true;
+	what.value="uploading...";
+}
+
+-->
+</script>
+<style type="text/css">
+.orange
+{
+background-color: #FFF2DA;
+border: solid 1px;
+border-color: #FFCC99;
+padding: 5px;
+font: 11px verdana;
+}
+
+</style>
+
+</head>
+<body bgcolor="#F7F7F7">
+<div align="center"> 
+  <table border="0" cellspacing="0" cellpadding="0" width="760" align="center">
+  <tr> 
+    <td valign="bottom" width="80"> <a href="http://imageshack.us/">
+
+<img src="http://www.imageshack.us/img/imageshack.png" border="0" alt="ImageShack® Frog Logo" /></a></td>     <td valign="bottom"><h1>ImageShack®</h1>
+<b>
+      <a href="http://imageshack.us/" title="Host more.">ImageShack®</a> | 
+<a href="http://www.imageshack.us/rules.php" title="Terms of Service">Terms of Service</a> |
+<a href="http://www.imageshack.us/faq.php" title="Frequently Asked Questions">Common
+Questions</a> | 
+
+
+<a href="http://www.imageshack.us/features.php">Features</a> |
+
+ <a href="http://www.imageshack.us/tutorials.php">Tutorials</a>
+   | <a href="http://reg.imageshack.us/register.php" title="Register for your own ImageShack® account!">Register</a>
+  
+	  | <a href="https://www.paypal.com/xclick/business=macbeth%40imageshack.us&amp;item_name=Donation&amp;no_note=1&amp;tax=0&amp;currency_code=USD" target="_blank" > 
+      Donate</a>
+</b>
+</td>
+  </tr>
+</table>
+<!-- You are on server img160 !-->
+ <table width="760" cellspacing="0" border="1" bordercolor="#CCCCCC" cellpadding="5" class="table_decoration" 
+align="center"><tr><td 
+valign="top">
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-8190788998834241";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_format = "336x280_as";
+google_ad_channel ="3794597302";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000AC";
+google_color_url = "008000";
+google_color_text = "111111";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td><td valign="top">
+<p>
+<span style="float: right">[ 70.242.163.142 <a href="http://www.imageshack.us/rules.php" title="ImageShack logs IP addresses. Please read the Terms of Service!">logged</a> ]</span>
+
+<span style="text-decoration: underline; font-family: Tahoma">Hosting by ImageShack</span>
+</p>
+<p>ImageShack® uses a highly reliable
+dedicated Linux server<br />network to provide its digital
+content hosting service!<br />Please see the <a href="http://www.imageshack.us/faq.php">Common Questions</a> for details.</p>
+
+  <form method="post" action="index.php" enctype="multipart/form-data" onsubmit="disableme('butan')">
+
+          
+<p><input type="hidden" name="MAX_FILE_SIZE" value="1048576">
+<input type="hidden" name="refer" value="">
+<input type="file" class="textfield" name="fileupload" size="30"></p>
+
+<!--
+add comments for this image:&nbsp;&nbsp;
+<input type="text" name="comment" size="75" maxlength="200"/>
+!-->
+<p><input type="checkbox" name="gallery" value="yes" /> check to start a gallery with this image</p>
+<p>optional color code:&nbsp;&nbsp;
+<br /><a href="colors.php">Customize Colors</a> </p>
+<p><img src="img/hostypes.png"></p>
+
+<input id="butan" style="width: 100px;" type="submit" value="host it!" >
+         </form>
+
+Press CTRL+D to bookmark ImageShack!
+
+</td>
+</tr>
+</table>
+
+<div align="center">Copyright &copy; 2003-2005 ImageShack Corp. All rights reserved. Excelling in service since November 
+2003.
+<br /><br />
+<b>
+<a href="http://img1.imageshack.us/suggest.php?q=abuse">Report Abuse or Request Deletion</a> | 
+<a href="http://img1.imageshack.us/suggest.php?q=customer">Customer Service</a> |
+<a href="http://img1.imageshack.us/suggest.php?q=marketing">Marketing Opportunities</a>
+</b>
+<br />
+<a href="http://www.imageshack.us/linkto.php">Link to Us</a> |
+<a href="http://www.imageshack.us/aboutus.php">About</a> |
+<a href="http://reg.imageshack.us/adr/adrevenue/">Advertise</a> |
+<a href="http://www.imageshack.us/transloader.php">Transloader</a> |
+<a href="http://www.imageshack.us/syndicate.php">Syndication</a> |
+<a href="http://www.imageshack.us/everywhere.php">Sidebar</a>
+
+</div>
+
+</div>
+</body>
+</html>

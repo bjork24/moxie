@@ -1,0 +1,61 @@
+{
+  "id": 56,
+  "title": "Behind the blog, intro",
+  "body": "Somewhere, deep in the recesses of my mind, there's a post begging to be written about the human element behind this entire venture. How it feels to be stuck in St. Louis when I know we should be in Springfield. The exhilarating optimism-fueled days when everything seems to be going our way, and the other days, the ones I never talk about, when the entire project feels like it's slipping away. That's what I wanted to write about tonight, but I could't seem to find the words.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-09-03T04:27:14.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Newell",
+      "body": "Maybe the words are in the same place as your hat.",
+      "created_at": "2004-09-03T05:24:56.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Newell, how right you are.",
+      "created_at": "2004-09-03T07:15:26.000Z"
+    },
+    {
+      "author": "justin",
+      "body": "where's my hat?  er..",
+      "created_at": "2004-09-03T08:42:46.000Z"
+    },
+    {
+      "author": "Nicole",
+      "body": "Cheer up Charlie! Just be glad you're you...and that we don't have work on Monday!",
+      "created_at": "2004-09-03T16:31:49.000Z"
+    },
+    {
+      "author": "einahpets",
+      "body": "Whoa. That's weird. I was just going to write Cheer up Charlie..just be glad you're you...that was a weird twin moment.",
+      "created_at": "2004-09-03T17:19:14.000Z"
+    },
+    {
+      "author": "Oz",
+      "body": "You should totally write about the times you think the whole thing is slipping away.  \"This blog is intended to chronicle the process of developing, financing, starting, and maintaining a small, independently-owned, art-house theater.\"  I didn't read anything in that which specifies \"only the good, positive parts of....\"\r\n\r\nOr is this some sort of macho crap where you can't show your insecurities?",
+      "created_at": "2004-09-03T18:19:49.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "It's some sort of macho crap where I can't show my insecurities, or reveal that I wet the bed... wait. Damn it!",
+      "created_at": "2004-09-03T21:37:30.000Z"
+    },
+    {
+      "author": "Oz",
+      "body": "I knew it!  I placed two bets when I started reading this blog.  1) The theater is in Missouri.  2)  Dan is a bed wetter.  Watch out, Vegas, I'm coming to collect.",
+      "created_at": "2004-09-03T22:01:53.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

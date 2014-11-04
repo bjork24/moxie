@@ -1,0 +1,120 @@
+{
+  "name": "Techish talk",
+  "desc": "I'm a friend of all things \"tech\" and an avowed computer geek, so whenever I get to jonzin' for some hot computer talk, this is where I'll do it.",
+  "June 2004": [
+    {
+      "day": "21",
+      "id": 23,
+      "title": "Website",
+      "comments": 35
+    }
+  ],
+  "July 2004": [
+    {
+      "day": "15",
+      "id": 37,
+      "title": "Attack of the clones",
+      "comments": 25
+    }
+  ],
+  "August 2004": [
+    {
+      "day": "4",
+      "id": 44,
+      "title": "Tables are dead",
+      "comments": 6
+    }
+  ],
+  "October 2004": [
+    {
+      "day": "29",
+      "id": 88,
+      "title": "Mmm, cookies",
+      "comments": 16
+    },
+    {
+      "day": "30",
+      "id": 89,
+      "title": "You ask",
+      "comments": 12
+    }
+  ],
+  "November 2004": [
+    {
+      "day": "17",
+      "id": 104,
+      "title": "Firefox is totally radical",
+      "comments": 19
+    }
+  ],
+  "March 2005": [
+    {
+      "day": "7",
+      "id": 162,
+      "title": "Server problems",
+      "comments": 6
+    }
+  ],
+  "June 2005": [
+    {
+      "day": "15",
+      "id": 233,
+      "title": "They call me Mister PHP",
+      "comments": 18
+    }
+  ],
+  "November 2005": [
+    {
+      "day": "29",
+      "id": 332,
+      "title": "Paris Hilton and Nicole Richie",
+      "comments": 25
+    }
+  ],
+  "February 2006": [
+    {
+      "day": "1",
+      "id": 358,
+      "title": "Question of the day",
+      "comments": 26
+    },
+    {
+      "day": "2",
+      "id": 359,
+      "title": "Wait a minute",
+      "comments": 36
+    }
+  ],
+  "June 2006": [
+    {
+      "day": "19",
+      "id": 423,
+      "title": "Answered prayers...and classified ads",
+      "comments": 22
+    }
+  ],
+  "February 2008": [
+    {
+      "day": "19",
+      "id": 527,
+      "title": "We're number ONE!",
+      "comments": 15
+    }
+  ],
+  "March 2009": [
+    {
+      "day": "22",
+      "id": 598,
+      "title": "Gettin' social with The Moxie",
+      "comments": 0
+    }
+  ],
+  "June 2009": [
+    {
+      "day": "14",
+      "id": 606,
+      "title": "Hey look! It's a new online calendar... FINALLY!",
+      "comments": 1
+    }
+  ]
+}

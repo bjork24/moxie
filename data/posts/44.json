@@ -1,0 +1,55 @@
+{
+  "id": 44,
+  "title": "Tables are dead",
+  "body": "As a test of my newly gained knowledge of CSS-P, I silently switched this blog from table-based design to pure CSS-P yesterday. Don't believe me? Check the source code. I haven't gotten a chance to revert the secondary pages yet (i.e. comments, guestbook, quote archive), but they'll fall in line soon enough. So if you any of you have difficulty viewing this blog in all its CSS-P glory, please let me know. Tell me what browser and OS you're using, and I'll try my hardest to refrain from mocking you and telling you to upgrade to something that was released within the last 5 years (sorry, my inner IT snob sometimes gets the best of me). Either way, enjoy.\r\n\r\nAlso, since we're on the topic of CSS-P and web development, <b>The Moxie's</b> webpage is coming along swimmingly. I still have to program the back-end administrative stuff, but for the most part all of the design work is complete. I forsee another post about website features in the near future. Won't that be exciting? Until next time... peace out*.\r\n\r\n*NOTE: <i>Hearing the phrase \"peace out\" makes the author squirm and cringe, much like these equally rage-inducing locutions:</i>\r\n\r\n+ \"Back in the day...\"\r\n+ \"Bologna head! Bologna head!\"\r\n+ \"[INSERT POP STAR] is so cool.\"\r\n+ \"Wanna Fanta?\"\r\n+ \"Where's my cap?\"",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-08-05T00:29:11.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Newell",
+      "body": "But, dude! Back in the day, \"peace out\" was the bomb!!!\r\n\r\nBy the by, I love what you've done with the place. It looks so much better this way. Despite it not really looking different at all... yeah...",
+      "created_at": "2004-08-05T06:20:21.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Ah, but that's the point. I wanted to replicate the exact design without using tables. The previous design was very table heavy.",
+      "created_at": "2004-08-05T07:19:33.000Z"
+    },
+    {
+      "author": "Oz",
+      "body": "Congratulations.  I designed my website (not blog) with Frontpage.  By the way, I heard you snort, and I can feel you looking down on me.  However, I just wanted something simple, and it was very easy for me to work with.  Well, I traded in my PC for a Mac and ended up with Go Live.  Now that I'm trying to redesign my webpage with Go Live, I'm ready to slit my wrists.  So even though I am WAY below you in skill level, I can appreciate what it's like to move from one program (or language in your case) to another.",
+      "created_at": "2004-08-05T19:47:16.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Oh Oz, I'd never mock you! Good luck with the redesign.",
+      "created_at": "2004-08-05T19:57:51.000Z"
+    },
+    {
+      "author": "jimmy mchoo",
+      "body": "Excellent site, added to favorites!!\r\nThis is my site:\r\nhttp://jimmy-choo-handbags.blogspot.com",
+      "created_at": "2006-05-09T14:06:20.000Z"
+    },
+    {
+      "author": "1",
+      "body": "1",
+      "created_at": "2006-06-15T12:19:48.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 7,
+      "name": "Lists"
+    },
+    {
+      "id": 11,
+      "name": "Techish talk"
+    }
+  ]
+}

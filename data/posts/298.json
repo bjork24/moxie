@@ -1,0 +1,20 @@
+{
+  "id": 298,
+  "title": "Get your invitation to blog readers' night",
+  "body": "The <a href=\"/posts/invite/\" class=\"broken\">online sign-up form</a> is ready! To be fair, invitations will be given on a first come, first serve basis. Now <a href=\"/posts/invite/\" class=\"broken\">go sign up</a>!",
+  "author_id": 1,
+  "allow_comments": 0,
+  "created_at": "2005-09-12T18:54:31.000Z",
+  "author": "Dan",
+  "comments": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 4,
+      "name": "Informative"
+    }
+  ]
+}

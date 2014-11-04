@@ -1,0 +1,32 @@
+{
+  "id": 273,
+  "title": "Quick question",
+  "body": "ATTENTION Springfield Readers: Does anyone have a good recommendation for a local, licensed plumber? We're in need of one ASAP.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2005-08-01T20:59:46.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Oz",
+      "body": "Licensed plumber?  I shudder to think what a licensed plumber would make out of the hodge podge of pipes I've assembled throughout this house of mine.  And then there's the faucet in my bathtub that still isn't quite right.....\r\n\r\nGood luck, Dan!",
+      "created_at": "2005-08-02T00:39:45.000Z"
+    },
+    {
+      "author": "Caleb",
+      "body": "Um, I know a really good local, licensed electrician but that's all. He might be able to refer you but I don't know. His name is Mark Nix and he is co-owner of Lumix Electric. Sorry I don't have their number. ",
+      "created_at": "2005-08-02T02:59:28.000Z"
+    },
+    {
+      "author": "timmo",
+      "body": "Witt Plumbing\r\n862.1439\r\ndwayne does a great job!\r\nParrish (owner) stays pretty busy. not sure  what their lead time is.\r\n",
+      "created_at": "2005-08-02T19:59:29.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Business"
+    }
+  ]
+}

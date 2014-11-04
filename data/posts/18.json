@@ -1,0 +1,46 @@
+{
+  "id": 18,
+  "title": "The return",
+  "body": "We're back. Long day. Many meetings. Good news. Very tired. Must sleep. All apologies. More later.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2004-06-15T08:08:50.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Oz",
+      "body": "Glad it went well!  Can't wait to hear how you got a loan at 1% interest because they were so blown away by your business proposal!",
+      "created_at": "2004-06-15T16:07:20.000Z"
+    },
+    {
+      "author": "Chuck",
+      "body": "This is a relief. Figured you for dead.",
+      "created_at": "2004-06-15T20:09:16.000Z"
+    },
+    {
+      "author": "Justin",
+      "body": "Actually, I figured him for dead, too... only because I had severely beaten him in the head with a bowling pin.  Looks like I didn't hit quite hard enough.",
+      "created_at": "2004-06-15T20:41:24.000Z"
+    },
+    {
+      "author": "James",
+      "body": "Work Harder, it pays off!!!!!!",
+      "created_at": "2004-06-16T17:48:16.000Z"
+    },
+    {
+      "author": "reno",
+      "body": "wish you good",
+      "created_at": "2004-06-23T20:30:07.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Day-to-day"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

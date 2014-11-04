@@ -1,0 +1,111 @@
+{
+  "id": 233,
+  "title": "They call me Mister PHP",
+  "body": "Many of you may not know this, but in my last life - my corporate one - I was a bona fide script slinger. By day, a mild mannered content editor, but by night... I was a PHP GOD! You see, PHP and I are very good friends. A few years ago, PHP kneed me right in the junk, but I forgave PHP. Why? Because we're tight, that's why.\r\n\r\nSo I've been spending the last few days and nights banging out the Ub3r-1337 backend to the Moxie website. Not only will the functionality of the Moxie website be relying on my nimbley* coded functions, but I'm also using the same base structure to build a multi-dimensional, relational, quasi-bipedal P.O.S. (point of sale) system. I've mentioned the P.O.S. system before, but now that I'm in the thick of it, it's all I can think about. When I'm coding, I can't be bothered.\r\n\r\n<b>Nicole:</b> Dan.. (waits for a response) I'm pregnant.\r\n<b>Dan:</b> Uh huh.\r\n<b>Nicole:</b> With a case of Ice Mountain bottled water.\r\n<b>Dan:</b> Uh huh.\r\n<b>Nicole:</b> And my water just broke.\r\n<b>Dan:</b> Great.\r\n<b>Nicole:</b> On your wireless router.\r\n<b>Dan:</b> (like Darth Vadar) Nooooooooooooooooo!\r\n\r\nThe great thing about writing custom software for your own proprietary applications is that you always have tech support... 24/7. Unless, of course, I'm in the water closet, which would make the support drop to around 18/5. Even still, that's better than what you'll get with Macromedia (snicker snicker). Another nice \"pro\" of writing your own software is being able to make your variables as arcane as possible. I can't tell you how many $bjork variables are running this very blog. If I told you, you'd probably $crap all over the $toilet.\r\n\r\nAt this point, I realize I've alienated 98% of my audience, but for those of you who are still reading, hoping for some sense of closure, I hate to tell you that there's none to be found. Instead, here's a list of things I've built with PHP:\r\n\r\n1. A program that tracks our recurring bills\r\n2. An igloo\r\n3. An application that renames all my MP3s\r\n4. A box that protects me from thunderstorms\r\n\r\nOk, seriously... here's the lowdown. I'm in the midst of programming a complex set of applications that will run everything from ticket creation (via our cheap ink jet printer), transaction recording and reporting (ala P.O.S.), up-to-date movie listings, online ticket sales, and be completely accessible from my trusty home computer. I'm also trying to program an electronic cash drawer (via USB) to interface with my P.O.S. software (as per <a href=\"http://justin.retroflux.com\" target=\"_blank\" class=\"broken\">Justin's</a> suggestion).\r\n\r\nThis one time, I was walking down the street and some dude came up to me and was like, \"Hey, Dan! What's shakin'?\" And I was like, \"They call me MISTER PHP!\"\r\n\r\nOn tomorrow's show: Dan is back with <i>24's</i> Carlos Bernard and a new post that will probably be better than this one. Probably.\r\n\r\n* <i>nimbley</i>© is not a real word, but from henceforth is a owned by this blog. Use it with care.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2005-06-15T05:39:19.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Pat",
+      "body": "$me = '2%'\r\n",
+      "created_at": "2005-06-15T06:39:56.000Z"
+    },
+    {
+      "author": "whitty",
+      "body": "Oh, jesus, what language was that?\r\n\r\nIt was like, blah, blah, blah, and that, whitty, is why you should always use a Mac. Lalala!\r\n\r\nAnd Congrats on the Ice Mountain bottled water! ",
+      "created_at": "2005-06-15T08:14:13.000Z"
+    },
+    {
+      "author": "justin",
+      "body": "Your PHP skills frighten me.  Seriously, I had a nightmare last night.",
+      "created_at": "2005-06-15T08:14:18.000Z"
+    },
+    {
+      "author": "Stephanie",
+      "body": "I want to see the igloo!",
+      "created_at": "2005-06-15T08:58:24.000Z"
+    },
+    {
+      "author": "Matt L.",
+      "body": "At least we know the P.O.S system wont be a POS",
+      "created_at": "2005-06-15T16:26:04.000Z"
+    },
+    {
+      "author": "Fyse",
+      "body": "I'm trying learn a little PHP at the moment. Just enough to make a guestbook, or perhaps to customize one I download. You sound like you're preparing to run the entire world through the medium of PHP, like some sort of Bond villain puppet master.",
+      "created_at": "2005-06-15T16:28:03.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "I still can't do links.",
+      "created_at": "2005-06-15T17:18:22.000Z"
+    },
+    {
+      "author": "Yoda",
+      "body": "Barely get my computer turned on, I can!  Spreadsheet for Jedi Expense Accounts a nightmare to work, it is!  Very condescending Young Skywalker is, as how to use \"pull-down\" menus, he shows me.\r\nJedi Temple IT Department, no help is!  Fat and lazy, they are.  Halo 2 all day, they play!\r\nMemory too small, in my hard drive is.  (Tell me this, Obi-Wan does.)  \"Size matters not!\" they say.  Laugh at me, they do.  Turn that tired phrase back on me, they do.",
+      "created_at": "2005-06-15T17:27:30.000Z"
+    },
+    {
+      "author": "steph v. horn",
+      "body": "You down with OPP?",
+      "created_at": "2005-06-15T17:51:28.000Z"
+    },
+    {
+      "author": "nicole",
+      "body": "Dan's such a geek.",
+      "created_at": "2005-06-15T17:52:33.000Z"
+    },
+    {
+      "author": "Yoda",
+      "body": "Down with OPP, you?  \r\nDown with OPP, I am!\r\nDown with OPP, who is?  \r\nYeah, know me, you do!",
+      "created_at": "2005-06-15T17:58:05.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Nate, write a Yoda blog, you should.",
+      "created_at": "2005-06-15T18:11:32.000Z"
+    },
+    {
+      "author": "Jeremy Boles",
+      "body": "Have fun with that USB cash drawer thing.  I had a nightmare or a time when I had to do one.\r\n\r\nYou should check out the <a href=\"http://rubyonrails.com/\">Rails</a> framework for web-apps sometime.  Although I'm not sure you would get along with it too well with your variable naming conventions.",
+      "created_at": "2005-06-15T18:21:53.000Z"
+    },
+    {
+      "author": "DUG",
+      "body": "I was attacked by an igloo once.  It was very scary cause the igloo was poking me with ice in the elbow, then picked uup a chainsaw and was chasing me.  Not to worry, got away from that damned igloo and lived happily ever after as a goat.  On second thought, I could have been dreaming.\r\n",
+      "created_at": "2005-06-15T19:48:54.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Yoda blog...huh?",
+      "created_at": "2005-06-15T21:16:57.000Z"
+    },
+    {
+      "author": "Dave",
+      "body": "Dan taught me all I know about\r\n$really_bad_variable_names",
+      "created_at": "2005-06-15T22:12:10.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "The more underscores, the better.",
+      "created_at": "2005-06-15T22:38:30.000Z"
+    },
+    {
+      "author": "brian of moore",
+      "body": "my mom always said that being called mr. php was better than mr. pcp...\r\noddly my mom knows nothing about web design.. and does mind altering drugs non-stop\r\n...........",
+      "created_at": "2005-06-15T23:32:20.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 8,
+      "name": "MOXIE"
+    },
+    {
+      "id": 11,
+      "name": "Techish talk"
+    }
+  ]
+}

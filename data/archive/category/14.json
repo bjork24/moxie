@@ -1,0 +1,154 @@
+{
+  "name": "Dialogue",
+  "desc": "<b>Dan</b> - I use this method of exposition when I get bored.<br/>\r\n<b>Benzo</b> - Pretty pathetic.\r\n<b>Dan</b> - *sobs*",
+  "May 2004": [
+    {
+      "day": "26",
+      "id": 3,
+      "title": "Introduction, Part 3",
+      "comments": 0
+    }
+  ],
+  "June 2004": [
+    {
+      "day": "8",
+      "id": 13,
+      "title": "Business plan rant",
+      "comments": 4
+    },
+    {
+      "day": "30",
+      "id": 29,
+      "title": "The other kind of projection",
+      "comments": 6
+    }
+  ],
+  "July 2004": [
+    {
+      "day": "6",
+      "id": 32,
+      "title": "The Name Game",
+      "comments": 38
+    },
+    {
+      "day": "13",
+      "id": 36,
+      "title": "Pop goes the vendor",
+      "comments": 24
+    }
+  ],
+  "August 2004": [
+    {
+      "day": "1",
+      "id": 42,
+      "title": "Summer of Logo",
+      "comments": 10
+    }
+  ],
+  "September 2004": [
+    {
+      "day": "10",
+      "id": 61,
+      "title": "I like putty",
+      "comments": 18
+    }
+  ],
+  "October 2004": [
+    {
+      "day": "7",
+      "id": 71,
+      "title": "Time keeps on slippin...",
+      "comments": 13
+    },
+    {
+      "day": "26",
+      "id": 80,
+      "title": "The Financial Play",
+      "comments": 12
+    }
+  ],
+  "November 2004": [
+    {
+      "day": "4",
+      "id": 95,
+      "title": "Conversation circa 1991",
+      "comments": 13
+    },
+    {
+      "day": "22",
+      "id": 106,
+      "title": "Memory lane",
+      "comments": 18
+    }
+  ],
+  "December 2004": [
+    {
+      "day": "14",
+      "id": 117,
+      "title": "Good day",
+      "comments": 17
+    }
+  ],
+  "January 2005": [
+    {
+      "day": "19",
+      "id": 137,
+      "title": "Another busy day looms",
+      "comments": 6
+    }
+  ],
+  "March 2005": [
+    {
+      "day": "24",
+      "id": 175,
+      "title": "While you were sleeping",
+      "comments": 19
+    }
+  ],
+  "April 2005": [
+    {
+      "day": "13",
+      "id": 194,
+      "title": "The indentured rhinoceros",
+      "comments": 34
+    }
+  ],
+  "June 2005": [
+    {
+      "day": "21",
+      "id": 238,
+      "title": "One hundred and four weeks old",
+      "comments": 18
+    }
+  ],
+  "September 2005": [
+    {
+      "day": "6",
+      "id": 294,
+      "title": "The long weekend",
+      "comments": 16
+    },
+    {
+      "day": "28",
+      "id": 309,
+      "title": "Customers say the darndest things, episode 1",
+      "comments": 27
+    }
+  ],
+  "March 2006": [
+    {
+      "day": "7",
+      "id": 378,
+      "title": "The Dark Art of Booking a Single Screen Cinema",
+      "comments": 46
+    }
+  ],
+  "April 2006": [
+    {
+      "day": "5",
+      "id": 390,
+      "title": "Non-customers say the darnedest things",
+      "comments": 12
+    }
+  ]
+}

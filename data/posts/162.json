@@ -1,0 +1,51 @@
+{
+  "id": 162,
+  "title": "Server problems",
+  "body": "We've been having server issues for the last few days, but if you're reading this we're hopefully on the mend. Hold tight folks, all will be well.",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2005-03-08T02:25:18.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Stephanie",
+      "body": "Oh, good...you're back.  Because I really can't get through the day without a visit to the Moxie Blog.\r\n\r\nI guess this affected Nicole and Stephanie V, as well?",
+      "created_at": "2005-03-08T05:22:03.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "I don't think it affected their sites as bad as mine, but I'm sure they were down periodically. Apparently I've been getting too much traffic...",
+      "created_at": "2005-03-08T05:24:58.000Z"
+    },
+    {
+      "author": "steph v.",
+      "body": "You're just too popular! (My site was down for a bit yesterday, but no big deal).",
+      "created_at": "2005-03-08T19:15:53.000Z"
+    },
+    {
+      "author": "Evan Erwin",
+      "body": "Yes, secretly I yearn for every last update to the Moxie World. I have it in my coveted \"Must Read\" Onfolio folder, and with each new post an angel gets its wings...\r\n\r\nWhich means that yesterday some poor angel died a horrible, horrible death (it fell in a meatgrinder too...nasty).\r\n\r\nUm, yeah, so anyway, welcome back Dan :)",
+      "created_at": "2005-03-08T20:08:38.000Z"
+    },
+    {
+      "author": "Beavis",
+      "body": "My site once went down due to the mydoom virus.  Yikes!  But Dan, no worries, I will be here waiting for you forever.",
+      "created_at": "2005-03-08T22:05:15.000Z"
+    },
+    {
+      "author": "bjork24",
+      "body": "Angels have wings... a new post is born.",
+      "created_at": "2005-03-08T22:33:21.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 11,
+      "name": "Techish talk"
+    }
+  ]
+}

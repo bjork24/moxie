@@ -1,0 +1,46 @@
+{
+  "id": 264,
+  "title": "Day 13: More...",
+  "body": "Painting... AND more tomorrow. I have pictures, but I'm too tired to post them. What? What was that?! Hey! I can make this post as small as I want to, mister! Oh. Oh, I can't, huh?! So that's how it's gonna be. Fine. Fine!",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2005-07-24T09:33:47.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "brian of moore",
+      "body": "small posts get lots of comments\r\nive done studies",
+      "created_at": "2005-07-24T09:37:41.000Z"
+    },
+    {
+      "author": "justin",
+      "body": "I refuse to comment on such a small post!",
+      "created_at": "2005-07-24T18:39:04.000Z"
+    },
+    {
+      "author": "nathan springer",
+      "body": "its not the size that matters... i am sorry  that was uncalled for.",
+      "created_at": "2005-07-25T00:13:10.000Z"
+    },
+    {
+      "author": "Dave",
+      "body": "painting eh? i sat around watching star wars and drinking beer all day. but painting's cool too. ",
+      "created_at": "2005-07-25T04:10:33.000Z"
+    },
+    {
+      "author": "Caleb",
+      "body": "I plan on bringing the Sideways poster by Monday around 6:00 if you will be there. And if you would like an extra hand with painting that night I'd be glad to help.",
+      "created_at": "2005-07-25T05:40:24.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Day-to-day"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

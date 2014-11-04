@@ -1,0 +1,50 @@
+{
+  "id": 432,
+  "title": "Forum and function",
+  "body": "Due to the growing community of forum users, I decided it was time to upgrade the old Moxie Forum to something <a href=\"http://www.moxiecinema.com/forum\" class=\"broken\">new and exciting</a>. If you were a member of the old board, your same username and password gets you into the new one too. There are so many new features, I don't even know where to begin. Login (or sign up), take a look around, and I garauntee you'll like it better than the old forum. Wee haa!\r\n\r\nIn other news, it's so hot here in Springfield that you could fry an egg just by taking it out of the refrigerator. Seriously, it's getting up to 100 degrees in the afternoon with a heat index of 175... it's miserable. The air conditioner is having a hard time keeping up! The only good news about the hot weather is we've seen a sudden up-tick in our beer sales... our ice cold, frosty, refreshing beer sales. So why don't you come on down and treat yourself to a good movie in our nice, cool auditorium with a refreshing, sticks-to-your-lips-it's-so-cold beer, or two? You shan't regret it.\r\n\r\nNow I'm off to build the August calendar!",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2006-07-17T20:22:18.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Caleb",
+      "body": "Mmm, that post made me crave a beer for some reason. Odd.\r\n\r\nI came into work today at MSU to find out that Glass Hall's air conditioning is broken. So while all the classes moved to Strong Hall and most of the offices shut down, the stinking computer labs are here to serve the four students actually still in Glass Hall. I swear it's nearly 90 degrees in this lab. Sadly, that's still cooler than it is outside. I have class in Craig at 4:00 and the A/C better be working in there!\r\n\r\nLove the new forum.",
+      "created_at": "2006-07-17T23:18:22.000Z"
+    },
+    {
+      "author": "Matthew Martin aka Master RJ",
+      "body": "Glass Hall, Strong Hall? Sounds like Homestar Runner characters.",
+      "created_at": "2006-07-18T06:30:01.000Z"
+    },
+    {
+      "author": "Ben Dillon",
+      "body": "It's global warming, I tell you! The high in Wichita yesterday: 108.",
+      "created_at": "2006-07-18T21:32:56.000Z"
+    },
+    {
+      "author": "Nate",
+      "body": "Well, don't be so certain:  There is no scientific consensus whether it was 108 in Wichita yesterday, though liberally biased thermometers would have you believe it.",
+      "created_at": "2006-07-18T22:04:20.000Z"
+    },
+    {
+      "author": "Caleb",
+      "body": "Everyone knows Al Gore is behind the thermometer industry. He practically INVENTED it!",
+      "created_at": "2006-07-19T03:37:23.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 4,
+      "name": "Informative"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}

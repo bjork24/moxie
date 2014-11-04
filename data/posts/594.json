@@ -1,0 +1,35 @@
+{
+  "id": 594,
+  "title": "Love's Labour Lost",
+  "body": "There is no more sisyphean task than cleaning a movie theater auditorium. ",
+  "author_id": 1,
+  "allow_comments": 1,
+  "created_at": "2009-02-02T02:42:21.000Z",
+  "author": "Dan",
+  "comments": [
+    {
+      "author": "Paul",
+      "body": "Great word usage...sisyphean...I'll have to use that in a sentence today!  Just imagining pushing that round stone up the hill for eternity...",
+      "created_at": "2009-02-06T09:37:16.000Z"
+    },
+    {
+      "author": "Duke1974",
+      "body": "Yay! Sisyphus! The only bit of Greek legend that I remember and that's only because it was in the cartoon Ulysses 31.\r\n\r\nM",
+      "created_at": "2009-02-10T04:36:07.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Day-to-day"
+    },
+    {
+      "id": 6,
+      "name": "Grum"
+    },
+    {
+      "id": 8,
+      "name": "MOXIE"
+    }
+  ]
+}
