@@ -1,0 +1,22 @@
+{
+  "camelcase": true,
+  "curly": true,
+  "indent": 2,
+  "latedef": true,
+  "quotmark": "single",
+  "eqnull": true,
+  "eqeqeq": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "browser": true,
+  "globals": {
+    "page": true,
+    "doT": true,
+    "oboe": true,
+    "module": true,
+    "require": true,
+    "console": true,
+    "domready": true
+  }
+}
