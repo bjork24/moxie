@@ -22,10 +22,16 @@ module.exports = function (grunt) {
     watch: {
       options: {
         livereload: true,
+        reload: true,
+        forever: true
       },
       css: {
-        files: 'src/scss/*.scss',
-        tasks: ['compass'],
+        files: 'src/scss/*/*/*.scss',
+        tasks: ['sass'],
+      },
+      html: {
+        files: '*.html',
+        tasks: ['bytesize'],
       },
       js: {
         files: 'src/js/*.js',
@@ -33,21 +39,20 @@ module.exports = function (grunt) {
       }
     },
 
-    compass: {
-      dev: {
+    sass: {
+      dist: {
         options: {
-          sassDir: 'src/scss',
-          cssDir: 'build',
-          trace: true,
-          force: true,
-          outputStyle: 'expanded'
+          style: 'compressed'
+        },
+        files: {
+          'build/app.css': 'src/scss/app.scss'
         }
       }
     },
 
     concurrent: {
       target: {
-        tasks: ['connect', 'compass', 'watch'],
+        tasks: ['sass', 'connect', 'watch'],
         options: {
           logConcurrentOutput: true
         }
@@ -86,6 +91,6 @@ module.exports = function (grunt) {
   });
 
 grunt.registerTask('server', ['concurrent:target']);
-grunt.registerTask('build', ['jshint', 'uglify']);
+grunt.registerTask('build', ['jshint', 'uglify', 'sass']);
 
 };

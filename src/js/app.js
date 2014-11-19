@@ -26,7 +26,10 @@ Moxie = (function(){
   var controller = {
 
     index : function(){
-      console.log('index');
+      x.get('partials/index.html', function(data, rq){
+        console.log(data, rq);
+        $('#content').html('<b>Dan</b>');
+      });
     },
 
     dan : function(){
@@ -39,15 +42,42 @@ Moxie = (function(){
 
   };
 
+  // private toolbox
+  var x = {
+
+    // simple ajax get
+    get : function(file, cb) {
+      var rq = new XMLHttpRequest();
+      rq.open('GET', file, true);
+      rq.onload = function() {
+        if (rq.status >= 200 && rq.status < 400){
+          cb(rq.responseText, rq);
+        } else {
+          throw 'Server error!';
+        }
+      };
+      rq.onerror = function() {
+        throw 'Connection error!';
+      };
+      rq.send();
+    }
+
+  };
+
+  // combine bonzo + qwery
+  var $ = function(selector) {
+    return bonzo(qwery(selector));
+  };
+
   // return public api
   return {
     router : router
   };
 
-})();
+})(bonzo);
 
 // fire up app on dom ready
-domready(function(){
+document.addEventListener('DOMContentLoaded', function(){
   'use strict';
   Moxie.router.init();
 });

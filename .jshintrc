@@ -17,6 +17,7 @@
     "module": true,
     "require": true,
     "console": true,
-    "domready": true
+    "bonzo": true,
+    "qwery": true
   }
 }
