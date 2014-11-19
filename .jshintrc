@@ -12,7 +12,7 @@
   "browser": true,
   "globals": {
     "page": true,
-    "doT": true,
+    "Mustache": true,
     "oboe": true,
     "module": true,
     "require": true,
