@@ -75,9 +75,15 @@ Moxie = (function($){
       var tmpl = opts.partials + template + '.html';
       var file = ( x.isUndef(data) ) ? tmpl : opts.data + data + '.json' ;
       x.get(file, data, function(resp) {
-        console.log(resp, tmpl, x.isUndef(data));
-        opts.yield.innerHTML = ( x.isUndef(data) ) ? resp : Mustache.render(tmpl, resp) ;
-        cb();
+        if ( x.isUndef(data) ) {
+          opts.yield.innerHTML = resp;
+          cb();
+        } else {
+          x.get(tmpl, undefined, function(partial) {
+            opts.yield.innerHTML = Mustache.render(partial, resp);
+            cb();
+          });
+        }
       });
     },
 
