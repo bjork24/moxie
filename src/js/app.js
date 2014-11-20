@@ -5,93 +5,147 @@ Moxie = (function($){
   'use strict';
 
   var opts = {
-    partials : 'partials/',
-    data     : 'data/',
-    yield    : $('#js-yield')[0]
+    partials  : '/partials/',
+    dataStore : '/data/',
+    urlBase   : 'moxie-blog',
+    title     : 'The Moxie Blog',
+    yield     : $('#js-yield')[0],
+    dateField : 'created_at'
   };
 
   // public router method
-  var router = {
-
-    // set up routes
-    init : function(){
-      page('/', controller.index);
-      page('/guestbook', controller.guestbook);
-      page('*', controller.notFound);
-      page();
-    },
-
-    // goto route method
-    goTo : function(url){
-      page(url);
-    }
-
+  var router = function() {
+    page('/', controller.index);
+    page('/about', controller.about);
+    page('/guestbook', controller.guestbook);
+    page('/phlog', controller.phlog.index);
+    page('/phlog/:id', controller.phlog.entry);
+    page('*', controller.notFound);
+    page({ hashbang: true });
   };
 
   // private controller method
   var controller = {
 
-    index : function(){
-      x.render('index', undefined, function(){
-        console.log('index');
+    index : function() {
+      render({ partial : 'index' });
+    },
+
+    phlog : {
+
+      index : function() {
+        render('phlog', undefined, function() {
+          title(false);
+          console.log('index');
+        });
+      },
+
+      entry : function(ctx) {
+        render({
+          partial    : 'phlog/entry',
+          json       : 'phlogs/' + ctx.params.id,
+          titleBase  : 'Phlog',
+          titleJson  : 'title',
+          dateFormat : 'hh:mm AM'
+        });
+      }
+
+    },
+
+    guestbook : function() {
+      render({
+        partial : 'guestbook',
+        json    : 'guestbook',
+        title   : 'Guestbook'
       });
     },
 
-    guestbook : function(){
-      x.render('guestbook', 'guestbook', function(){
-        console.log('guestbook');
-      });
+    about : function() {
+      render({ partial : 'about', title : 'About the Moxie Blog' });
     },
 
-    notFound : function(){
-      console.log('404');
+    notFound : function() {
+      render('404', undefined, function() {
+        title('404');
+        console.log('404');
+      });
     }
 
   };
 
-  // private toolbox
-  var x = {
+  // ajax get
+  var get = function(file, json, cb) {
+    var rq = new XMLHttpRequest();
+    rq.open('GET', file, true);
+    rq.onload = function() {
+      if ( rq.status >= 200 && rq.status < 400 ) {
+        var resp = ( isUndef(json) ) ? rq.responseText : JSON.parse(rq.responseText) ;
+        cb(resp, rq);
+      } else {
+        throw 'Server error!';
+      }
+    };
+    rq.onerror = function() {
+      throw 'Connection error!';
+    };
+    rq.send();
+  };
 
-    // simple ajax get
-    get : function(file, data, cb) {
-      var rq = new XMLHttpRequest();
-      rq.open('GET', file, true);
-      rq.onload = function() {
-        if ( rq.status >= 200 && rq.status < 400 ) {
-          var resp = ( x.isUndef(data) ) ? rq.responseText : JSON.parse(rq.responseText) ;
-          cb(resp, rq);
-        } else {
-          throw 'Server error!';
+  // render template
+  var render = function(o) {
+    var partial = opts.partials + o.partial + '.html';
+    get(partial, undefined, function(partial) {
+      // static partial render
+      if ( isUndef(o.json) ) {
+        opts.yield.innerHTML = partial;
+        if ( !isUndef(o.success) ) {
+          o.success();
         }
-      };
-      rq.onerror = function() {
-        throw 'Connection error!';
-      };
-      rq.send();
-    },
+      // import data into partial
+      } else {
+        var json = opts.dataStore + o.json + '.json';
+        get(json, true, function(data) {
+          data[opts.dateField] = ( !isUndef(o.dateFormat) ) ? time(data[opts.dateField]) : null ;
+          opts.yield.innerHTML = Mustache.render(partial, data);
+          if ( !isUndef(o.success) ) {
+            o.success(data);
+          }
+        });
+      }
+      var titleStr = ( !isUndef(o.title) ) ? o.title : '' ;
+      titleStr += ( !isUndef(o.titleBase) ) ? o.titleBase : '' ;
+      title(titleStr);
+    });
+  };
 
-    // get partial and render
-    render : function(template, data, cb) {
-      var tmpl = opts.partials + template + '.html';
-      var file = ( x.isUndef(data) ) ? tmpl : opts.data + data + '.json' ;
-      x.get(file, data, function(resp) {
-        if ( x.isUndef(data) ) {
-          opts.yield.innerHTML = resp;
-          cb();
-        } else {
-          x.get(tmpl, undefined, function(partial) {
-            opts.yield.innerHTML = Mustache.render(partial, resp);
-            cb();
-          });
-        }
-      });
-    },
+  // switch page title
+  var title = function(section) {
+    document.title = ( section ) ? opts.title + ' | ' + section : opts.title ;
+  };
 
-    // simple undefined check
-    isUndef : function(o) {
-      return typeof o === 'undefined';
+  // simple undefined check
+  var isUndef = function(o) {
+    return typeof o === 'undefined';
+  };
+
+  // convert timestamp
+  var time = function(stamp, format) {
+    var d = new Date(stamp);
+    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var month = months[d.getMonth()];
+    var day = d.getDate();
+    var year = d.getFullYear();
+    var hours = d.getHours() + 1;
+    var hour = ( hours > 12 ) ? hours - 12 : hours ;
+    var mins = d.getMinutes() + 1;
+    var am = ( hours >= 12 ) ? 'p' : 'a' ;
+    if ( format === 'my' ) {
+      return month + ' ' + year;
+    } else if ( format === 'mdy' ) {
+      return month + ' ' + day + ', ' + year;
+    } else {
+      return month + ' ' + day + ', ' + year + ' @ ' + hour + ':' + mins + am;
     }
-
   };
 
   // return public api
@@ -102,7 +156,7 @@ Moxie = (function($){
 })(qwery);
 
 // fire up app on dom ready
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function() {
   'use strict';
-  Moxie.router.init();
+  Moxie.router();
 });

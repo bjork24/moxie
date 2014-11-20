@@ -30,7 +30,7 @@ module.exports = function (grunt) {
         tasks: ['sass'],
       },
       html: {
-        files: '*.html',
+        files: '*/*/*/*.html',
         tasks: ['bytesize'],
       },
       js: {

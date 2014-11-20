@@ -2,7 +2,6 @@
   "camelcase": true,
   "curly": true,
   "indent": 2,
-  "latedef": true,
   "quotmark": "single",
   "eqnull": true,
   "eqeqeq": true,
@@ -16,6 +15,7 @@
     "module": true,
     "require": true,
     "console": true,
-    "qwery": true
+    "qwery": true,
+    "Time": true
   }
 }
