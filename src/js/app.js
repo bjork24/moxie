@@ -1,8 +1,14 @@
 var Moxie = {};
 
-Moxie = (function(){
+Moxie = (function($){
 
   'use strict';
+
+  var opts = {
+    partials : 'partials/',
+    data     : 'data/',
+    yield    : $('#js-yield')[0]
+  };
 
   // public router method
   var router = {
@@ -10,7 +16,7 @@ Moxie = (function(){
     // set up routes
     init : function(){
       page('/', controller.index);
-      page('/dan', controller.dan);
+      page('/guestbook', controller.guestbook);
       page('*', controller.notFound);
       page();
     },
@@ -26,14 +32,15 @@ Moxie = (function(){
   var controller = {
 
     index : function(){
-      x.get('partials/index.html', function(data, rq){
-        console.log(data, rq);
-        $('#content').html('<b>Dan</b>');
+      x.render('index', undefined, function(){
+        console.log('index');
       });
     },
 
-    dan : function(){
-      console.log('dan');
+    guestbook : function(){
+      x.render('guestbook', 'guestbook', function(){
+        console.log('guestbook');
+      });
     },
 
     notFound : function(){
@@ -46,12 +53,13 @@ Moxie = (function(){
   var x = {
 
     // simple ajax get
-    get : function(file, cb) {
+    get : function(file, data, cb) {
       var rq = new XMLHttpRequest();
       rq.open('GET', file, true);
       rq.onload = function() {
-        if (rq.status >= 200 && rq.status < 400){
-          cb(rq.responseText, rq);
+        if ( rq.status >= 200 && rq.status < 400 ) {
+          var resp = ( x.isUndef(data) ) ? rq.responseText : JSON.parse(rq.responseText) ;
+          cb(resp, rq);
         } else {
           throw 'Server error!';
         }
@@ -60,13 +68,24 @@ Moxie = (function(){
         throw 'Connection error!';
       };
       rq.send();
+    },
+
+    // get partial and render
+    render : function(template, data, cb) {
+      var tmpl = opts.partials + template + '.html';
+      var file = ( x.isUndef(data) ) ? tmpl : opts.data + data + '.json' ;
+      x.get(file, data, function(resp) {
+        console.log(resp, tmpl, x.isUndef(data));
+        opts.yield.innerHTML = ( x.isUndef(data) ) ? resp : Mustache.render(tmpl, resp) ;
+        cb();
+      });
+    },
+
+    // simple undefined check
+    isUndef : function(o) {
+      return typeof o === 'undefined';
     }
 
-  };
-
-  // combine bonzo + qwery
-  var $ = function(selector) {
-    return bonzo(qwery(selector));
   };
 
   // return public api
@@ -74,7 +93,7 @@ Moxie = (function(){
     router : router
   };
 
-})(bonzo);
+})(qwery);
 
 // fire up app on dom ready
 document.addEventListener('DOMContentLoaded', function(){

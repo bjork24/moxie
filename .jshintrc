@@ -13,11 +13,9 @@
   "globals": {
     "page": true,
     "Mustache": true,
-    "oboe": true,
     "module": true,
     "require": true,
     "console": true,
-    "bonzo": true,
     "qwery": true
   }
 }
