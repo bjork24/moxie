@@ -34,9 +34,10 @@ Moxie = (function($){
     phlog : {
 
       index : function() {
-        render('phlog', undefined, function() {
-          title(false);
-          console.log('index');
+        render({
+          partial    : 'phlog/index',
+          json       : 'phlogs/index',
+          titleBase  : 'Phlog'
         });
       },
 
@@ -45,19 +46,14 @@ Moxie = (function($){
           partial    : 'phlog/entry',
           json       : 'phlogs/' + ctx.params.id,
           titleBase  : 'Phlog',
-          titleJson  : 'title',
-          dateFormat : 'hh:mm AM'
+          titleJson  : 'title'
         });
       }
 
     },
 
     guestbook : function() {
-      render({
-        partial : 'guestbook',
-        json    : 'guestbook',
-        title   : 'Guestbook'
-      });
+      render({ partial : 'guestbook', json : 'guestbook', title : 'Guestbook' });
     },
 
     about : function() {
@@ -105,13 +101,16 @@ Moxie = (function($){
       } else {
         var json = opts.dataStore + o.json + '.json';
         get(json, true, function(data) {
-          data[opts.dateField] = ( !isUndef(o.dateFormat) ) ? time(data[opts.dateField]) : null ;
+          data.time = function() {
+            return time(this[opts.dateField]);
+          };
           opts.yield.innerHTML = Mustache.render(partial, data);
           if ( !isUndef(o.success) ) {
             o.success(data);
           }
         });
       }
+      // set the title
       var titleStr = ( !isUndef(o.title) ) ? o.title : '' ;
       titleStr += ( !isUndef(o.titleBase) ) ? o.titleBase : '' ;
       title(titleStr);
