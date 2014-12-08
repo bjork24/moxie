@@ -23,6 +23,7 @@ Moxie = (function($){
     page.base('/' + opts.urlBase);
   }
 
+  console.log(opts);
 
   // public router method
   var router = function() {
