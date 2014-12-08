@@ -6,8 +6,8 @@ Moxie = (function($){
 
   // options
   var opts = {
-    partials  : '/partials/',
-    dataStore : '/data/',
+    partials  : 'partials/',
+    dataStore : 'data/',
     urlBase   : 'moxie-blog',
     title     : 'The Moxie Blog',
     yield     : $('#js-yield')[0],
@@ -17,10 +17,10 @@ Moxie = (function($){
   // make a few changes if not on dev
   var isDev = parseInt(window.location.port) === 2424;
 
-  if ( !isDev ) {
-    opts.partials = opts.urlBase + opts.partials;
-    opts.dataStore = opts.urlBase + opts.dataStore;
-    page.base('/' + opts.urlBase);
+  if ( isDev ) {
+    opts.partials = '/' + opts.partials;
+    opts.dataStore = '/' + opts.dataStore;
+    // page.base('/' + opts.urlBase);
   }
 
   console.log(opts);
