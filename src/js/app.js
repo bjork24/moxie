@@ -17,7 +17,7 @@ Moxie = (function($){
   // make a few changes if not on dev
   var isDev = parseInt(window.location.port) === 2424;
 
-  if ( isDev ) {
+  if ( !isDev ) {
     opts.partials = opts.urlBase + opts.partials;
     opts.dataStore = opts.urlBase + opts.dataStore;
     page.base('/' + opts.urlBase);
