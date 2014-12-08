@@ -21,7 +21,7 @@ Moxie = (function($){
     opts.partials = '/' + opts.partials;
     opts.dataStore = '/' + opts.dataStore;
   } else {
-    // page.base('/' + opts.urlBase);
+    page.base('/' + opts.urlBase);
   }
 
   console.log(opts);
@@ -35,7 +35,7 @@ Moxie = (function($){
     page('/phlog', controller.phlog.index);
     page('/phlog/:id', controller.phlog.entry);
     page('*', controller.notFound);
-    page({ hashbang: true });
+    page();
   };
 
   // private controller method
