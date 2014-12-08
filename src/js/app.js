@@ -20,7 +20,7 @@ Moxie = (function($){
   if ( isDev ) {
     opts.partials = opts.urlBase + opts.partials;
     opts.dataStore = opts.urlBase + opts.dataStore;
-    // page.base('/' + opts.urlBase);
+    page.base('/' + opts.urlBase);
   }
 
   console.log(opts);
