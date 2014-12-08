@@ -15,6 +15,7 @@ Moxie = (function($){
 
   // public router method
   var router = function() {
+    page.base('/moxie-blog');
     page('/', controller.index);
     page('/about', controller.about);
     page('/guestbook', controller.guestbook);
