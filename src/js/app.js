@@ -33,7 +33,7 @@ Moxie = (function($){
     page('/phlog', controller.phlog.index);
     page('/phlog/:id', controller.phlog.entry);
     page('*', controller.notFound);
-    page({ hashbang: true });
+    page();
   };
 
   // private controller method
