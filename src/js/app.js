@@ -21,7 +21,7 @@ Moxie = (function($){
     opts.partials = '/' + opts.partials;
     opts.dataStore = '/' + opts.dataStore;
   } else {
-    page.base('/' + opts.urlBase);
+    // page.base('/' + opts.urlBase);
   }
 
   console.log(opts);
