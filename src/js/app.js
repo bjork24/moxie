@@ -25,6 +25,7 @@ Moxie = (function($){
   }
 
   console.log(opts);
+  console.log('hi');
 
   // public router method
   var router = function() {
