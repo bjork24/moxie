@@ -4,6 +4,7 @@ Moxie = (function($){
 
   'use strict';
 
+  // options
   var opts = {
     partials  : '/partials/',
     dataStore : '/data/',
@@ -13,16 +14,25 @@ Moxie = (function($){
     dateField : 'created_at'
   };
 
+  // make a few changes if not on dev
+  var isDev = parseInt(window.location.port) === 2424;
+
+  if ( !isDev ) {
+    opts.partials = opts.urlBase + opts.partials;
+    opts.dataStore = opts.urlBase + opts.dataStore;
+    page.base('/' + opts.urlBase);
+  }
+
+
   // public router method
   var router = function() {
-    page.base('/moxie-blog');
     page('/', controller.index);
     page('/about', controller.about);
     page('/guestbook', controller.guestbook);
     page('/phlog', controller.phlog.index);
     page('/phlog/:id', controller.phlog.entry);
     page('*', controller.notFound);
-    page();
+    page({ hashbang: true });
   };
 
   // private controller method
