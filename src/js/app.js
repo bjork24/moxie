@@ -19,6 +19,8 @@ Moxie = (function($){
     page('/', controller.index);
     page('/about', controller.about);
     page('/guestbook', controller.guestbook);
+    page('/moxietv', controller.moxietv.index);
+    page('/moxietv/:id', controller.moxietv.entry);
     page('/phlog', controller.phlog.index);
     page('/phlog/:id', controller.phlog.entry);
     page('*', controller.notFound);
@@ -53,6 +55,29 @@ Moxie = (function($){
 
     },
 
+    moxietv : {
+
+      index : function() {
+        render({
+          partial    : 'moxietv/index',
+          json       : 'moxietv/index',
+          titleBase  : 'Moxie TV',
+          dateFormat : 'mdy'
+        });
+      },
+
+      entry : function(ctx) {
+        render({
+          partial    : 'moxietv/entry',
+          json       : 'moxietv/' + ctx.params.id,
+          titleBase  : 'Moxie TV',
+          dateFormat : 'mdy',
+          titleJson  : 'title'
+        });
+      }
+
+    },
+
     guestbook : function() {
       render({ partial : 'guestbook', json : 'guestbook', title : 'Guestbook' });
     },
@@ -62,10 +87,7 @@ Moxie = (function($){
     },
 
     notFound : function() {
-      render('404', undefined, function() {
-        title('404');
-        console.log('404');
-      });
+      render({ partial : '404', title : 'Not found' });
     }
 
   };
@@ -103,7 +125,8 @@ Moxie = (function($){
         var json = opts.dataStore + o.json + '.json';
         get(json, true, function(data) {
           data.time = function() {
-            return time(this[opts.dateField]);
+            var format = o.dateFormat || '' ;
+            return time(this[opts.dateField], format);
           };
           opts.yield.innerHTML = Mustache.render(partial, data);
           if ( !isUndef(o.success) ) {
@@ -112,8 +135,8 @@ Moxie = (function($){
         });
       }
       // set the title
-      var titleStr = ( !isUndef(o.title) ) ? o.title : '' ;
-      titleStr += ( !isUndef(o.titleBase) ) ? o.titleBase : '' ;
+      var titleStr = o.title || '' ;
+      titleStr += o.titleBase || '' ;
       title(titleStr);
     });
   };
@@ -153,10 +176,4 @@ Moxie = (function($){
     router : router
   };
 
-})(qwery);
-
-// fire up app on dom ready
-document.addEventListener('DOMContentLoaded', function() {
-  'use strict';
-  Moxie.router();
-});
+})(qwery).router();

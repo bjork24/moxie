@@ -1,0 +1,64 @@
+{
+  "episode" : [
+    {
+      "id": 1,
+      "title": "Milkduds, Dumpsters, and Hidden Videotapes",
+      "thumb": "01.jpg",
+      "created_at": "2006-03-14T11:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "The Amazing Moxie",
+      "thumb": "02.jpg",
+      "created_at": "2006-03-21T11:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "LOST at the Moxie",
+      "thumb": "03.jpg",
+      "created_at": "2006-03-28T11:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "The One In Vegas (drunk)",
+      "thumb": "04.jpg",
+      "created_at": "2006-04-10T09:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "title": "Moxie Adaptability",
+      "thumb": "05.jpg",
+      "created_at": "2006-04-18T09:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "Snakes in the Moxie",
+      "thumb": "06.jpg",
+      "created_at": "2006-05-02T09:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "title": "Stone Reynolds",
+      "thumb": "07.jpg",
+      "created_at": "2006-05-09T09:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "title": "zeMoxie show",
+      "thumb": "08.jpg",
+      "created_at": "2006-05-16T09:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "title": "No, that's Soft Tails: MoxieTV Bloopers, season one",
+      "thumb": "09.jpg",
+      "created_at": "2006-12-12T11:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "title": "Moxie Spot for Jeremy Larson Concert",
+      "thumb": "10.jpg",
+      "created_at": "2007-04-10T09:00:00.000Z"
+    }
+  ]
+}
