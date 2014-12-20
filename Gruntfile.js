@@ -51,9 +51,6 @@ module.exports = function (grunt) {
     },
 
     libsass: {
-      options: {
-        sourcemap: true
-      },
       dist: {
         src: 'src/scss/app.scss',
         dest: 'build/app.css'

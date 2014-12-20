@@ -29,13 +29,16 @@ Moxie = (function($){
 
   // private controller method
   var controller = {
-
     index : function() {
       render({ partial : 'index' });
     },
-
+    guestbook : function() {
+      render({ partial : 'guestbook', json : 'guestbook', title : 'Guestbook' });
+    },
+    about : function() {
+      render({ partial : 'about', title : 'About the Moxie Blog' });
+    },
     phlog : {
-
       index : function() {
         render({
           partial    : 'phlog/index',
@@ -43,7 +46,6 @@ Moxie = (function($){
           title      : 'Phlog'
         });
       },
-
       entry : function(ctx) {
         render({
           partial    : 'phlog/entry',
@@ -52,11 +54,8 @@ Moxie = (function($){
           titleJson  : 'title'
         });
       }
-
     },
-
     moxietv : {
-
       index : function() {
         render({
           partial    : 'moxietv/index',
@@ -65,7 +64,6 @@ Moxie = (function($){
           dateFormat : 'mdy'
         });
       },
-
       entry : function(ctx) {
         render({
           partial    : 'moxietv/entry',
@@ -75,21 +73,10 @@ Moxie = (function($){
           titleJson  : 'title'
         });
       }
-
     },
-
-    guestbook : function() {
-      render({ partial : 'guestbook', json : 'guestbook', title : 'Guestbook' });
-    },
-
-    about : function() {
-      render({ partial : 'about', title : 'About the Moxie Blog' });
-    },
-
     notFound : function() {
       render({ partial : '404', title : 'Not found' });
     }
-
   };
 
   // ajax get
