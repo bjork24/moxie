@@ -40,7 +40,7 @@ Moxie = (function($){
         render({
           partial    : 'phlog/index',
           json       : 'phlogs/index',
-          titleBase  : 'Phlog'
+          title      : 'Phlog'
         });
       },
 
@@ -48,7 +48,7 @@ Moxie = (function($){
         render({
           partial    : 'phlog/entry',
           json       : 'phlogs/' + ctx.params.id,
-          titleBase  : 'Phlog',
+          title      : 'Phlog',
           titleJson  : 'title'
         });
       }
@@ -61,7 +61,7 @@ Moxie = (function($){
         render({
           partial    : 'moxietv/index',
           json       : 'moxietv/index',
-          titleBase  : 'Moxie TV',
+          title      : 'Moxie TV',
           dateFormat : 'mdy'
         });
       },
@@ -70,7 +70,7 @@ Moxie = (function($){
         render({
           partial    : 'moxietv/entry',
           json       : 'moxietv/' + ctx.params.id,
-          titleBase  : 'Moxie TV',
+          title      : 'Moxie TV',
           dateFormat : 'mdy',
           titleJson  : 'title'
         });
@@ -114,6 +114,10 @@ Moxie = (function($){
   var render = function(o) {
     var partial = opts.partials + o.partial + '.html';
     get(partial, undefined, function(partial) {
+      var titleArr = [];
+      if ( !isUndef(o.title) ) {
+        titleArr.push(o.title);
+      }
       // static partial render
       if ( isUndef(o.json) ) {
         opts.yield.innerHTML = partial;
@@ -129,21 +133,27 @@ Moxie = (function($){
             return time(this[opts.dateField], format);
           };
           opts.yield.innerHTML = Mustache.render(partial, data);
+          if ( !isUndef(o.titleJson) ) {
+            // set the title again if extra
+            titleArr.push(data[o.titleJson]);
+            title(titleArr);
+          }
           if ( !isUndef(o.success) ) {
             o.success(data);
           }
         });
       }
       // set the title
-      var titleStr = o.title || '' ;
-      titleStr += o.titleBase || '' ;
-      title(titleStr);
+      title(titleArr);
     });
   };
 
   // switch page title
-  var title = function(section) {
-    document.title = ( section ) ? opts.title + ' | ' + section : opts.title ;
+  var title = function(arr) {
+    if ( arr.length && arr[0] !== opts.title ) {
+      arr.unshift(opts.title);
+    }
+    document.title = ( arr.length ) ? arr.join(' | ') : opts.title ;
   };
 
   // simple undefined check
