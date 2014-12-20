@@ -23,6 +23,9 @@ Moxie = (function($){
     page('/moxietv/:id', controller.moxietv.entry);
     page('/phlog', controller.phlog.index);
     page('/phlog/:id', controller.phlog.entry);
+    page('/archive', controller.blog.archive);
+    page('/archive/:year', controller.blog.archive);
+    page('/post/:id', controller.blog.entry);
     page('*', controller.notFound);
     page({ hashbang: true });
   };
@@ -74,9 +77,51 @@ Moxie = (function($){
         });
       }
     },
+    blog : {
+      archive : function(ctx) {
+        var year = parseInt(ctx.params.year) || 2004;
+        archive(year);
+      },
+      entry : function(ctx) {
+        render({
+          partial    : 'blog/entry',
+          json       : 'posts/' + ctx.params.id,
+          titleJson  : 'title'
+        });
+      }
+    },
     notFound : function() {
       render({ partial : '404', title : 'Not found' });
     }
+  };
+
+  // build archive page
+  var archive = function(year) {
+    var archiveData = [];
+    get(opts.dataStore + 'archive/year/' + year + '.json', true, function(data) {
+      for ( var month in data ) {
+        var monthInt = parseInt(month) - 1;
+        if ( data[month].length ) {
+          var d = new Date(year, monthInt);
+          var comments = 0;
+          for ( var i = 0, len = data[month].length; i < len; i++ ) {
+            comments += data[month][i].comments;
+          }
+          var collection = {
+            date : time(d, 'my'),
+            count : data[month].length,
+            comments : comments,
+            posts : data[month] 
+          };
+          archiveData.push(collection);
+        }
+      }
+      var partial = opts.partials + 'blog/archive.html';
+      get(partial, undefined, function(html) {
+        archiveData = { 'months' : archiveData };
+        opts.yield.innerHTML = Mustache.render(html, archiveData);
+      });
+    });
   };
 
   // ajax get

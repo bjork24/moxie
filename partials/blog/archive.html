@@ -1,0 +1,16 @@
+{{#months}}
+<div>
+Date: {{date}}<br/>
+Count: {{count}}<br/>
+Comments: {{comments}}
+  <ol>
+    {{#posts}}
+      <li>
+        <h4><a href="/post/{{id}}">{{title}}</a></h4>
+        <h5>day is {{day}}</h5>
+        <h6>{{comments}} comments</h6>
+      </li>
+    {{/posts}}
+  </ol>
+</div>
+{{/months}}
