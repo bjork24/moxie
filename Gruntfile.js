@@ -27,7 +27,7 @@ module.exports = function (grunt) {
       },
       css: {
         files: 'src/scss/*/*/*.scss',
-        tasks: ['sass'],
+        tasks: ['libsass'],
       },
       html: {
         files: '*/*/*/*.html',
@@ -50,9 +50,19 @@ module.exports = function (grunt) {
       }
     },
 
+    libsass: {
+      options: {
+        sourcemap: true
+      },
+      dist: {
+        src: 'src/scss/app.scss',
+        dest: 'build/app.css'
+      }
+    },
+
     concurrent: {
       target: {
-        tasks: ['sass', 'connect', 'watch'],
+        tasks: ['libsass', 'connect', 'watch'],
         options: {
           logConcurrentOutput: true
         }
@@ -91,6 +101,6 @@ module.exports = function (grunt) {
   });
 
 grunt.registerTask('server', ['concurrent:target']);
-grunt.registerTask('build', ['jshint', 'uglify', 'sass']);
+grunt.registerTask('build', ['jshint', 'uglify', 'libsass']);
 
 };

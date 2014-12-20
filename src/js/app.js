@@ -14,19 +14,6 @@ Moxie = (function($){
     dateField : 'created_at'
   };
 
-  // make a few changes if not on dev
-  var isDev = parseInt(window.location.port) === 2424;
-
-  if ( isDev ) {
-    opts.partials = '/' + opts.partials;
-    opts.dataStore = '/' + opts.dataStore;
-  } else {
-    page.base('/' + opts.urlBase);
-  }
-
-  console.log(opts);
-  console.log('hi');
-
   // public router method
   var router = function() {
     page('/', controller.index);
@@ -35,7 +22,7 @@ Moxie = (function($){
     page('/phlog', controller.phlog.index);
     page('/phlog/:id', controller.phlog.entry);
     page('*', controller.notFound);
-    page();
+    page({ hashbang: true });
   };
 
   // private controller method
