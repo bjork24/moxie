@@ -26,27 +26,16 @@ module.exports = function (grunt) {
         forever: true
       },
       css: {
-        files: 'src/scss/*/*/*.scss',
-        tasks: ['libsass'],
+        files: ['src/**/*.scss'],
+        tasks: ['libsass']
       },
       html: {
-        files: '*/*/*/*.html',
-        tasks: ['bytesize'],
+        files: ['**/*.html'],
+        tasks: ['bytesize']
       },
       js: {
-        files: 'src/js/*.js',
-        tasks: ['jshint', 'uglify', 'bytesize'],
-      }
-    },
-
-    sass: {
-      dist: {
-        options: {
-          style: 'compressed'
-        },
-        files: {
-          'build/app.css': 'src/scss/app.scss'
-        }
+        files: ['src/**/*.js'],
+        tasks: ['jshint', 'uglify', 'bytesize']
       }
     },
 
@@ -59,7 +48,7 @@ module.exports = function (grunt) {
 
     concurrent: {
       target: {
-        tasks: ['libsass', 'connect', 'watch'],
+        tasks: ['connect', 'watch'],
         options: {
           logConcurrentOutput: true
         }

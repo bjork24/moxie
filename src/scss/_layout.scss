@@ -1,0 +1,7 @@
+$l : '.l-container';
+
+// main container
+#{$l} {
+  max-width: $container-width;
+  margin: 0 auto;
+}

@@ -94,7 +94,7 @@
 
   // build archive page
   var archive = function(year) {
-    var archiveData = [];
+    var archiveData = { 'months' : [] };
     get('data/archive/year/' + year, function(data) {
       for ( var month in data ) {
         var monthInt = parseInt(month) - 1;
@@ -110,11 +110,10 @@
             comments : comments,
             posts : data[month] 
           };
-          archiveData.push(collection);
+          archiveData.months.push(collection);
         }
       }
       get('partials/blog/archive', function(html) {
-        archiveData = { 'months' : archiveData };
         opts.yield.innerHTML = Mustache.render(html, archiveData);
       });
     });
@@ -138,9 +137,7 @@
           throw 'Server error!';
         }
       };
-      rq.onerror = function() {
-        throw 'Connection error!';
-      };
+      rq.onerror = function() { throw 'Connection error!'; };
       rq.send();
     }
   }
@@ -150,9 +147,7 @@
     var titleArr = [];
     titleArr.push(o.title);
     if ( isUndef(o.json) ) {
-      get(o.partial, function(html) {
-        opts.yield.innerHTML = html;
-      });
+      get(o.partial, function(html) { opts.yield.innerHTML = html; });
     } else {
       get(o.partial, function(template) {
         get(o.json, function(json) {
@@ -165,6 +160,7 @@
             titleArr.push(json[o.titleJson]);
             title(titleArr);
           }
+          if ( !isUndef(o.success) ) { o.success(json); }
         });
       });
     }
@@ -173,10 +169,8 @@
 
   // switch page title
   function title(arr) {
-    arr = arr.filter(function(n){ return n !== undefined; });
-    if ( arr.length && arr[0] !== opts.title ) {
-      arr.unshift(opts.title);
-    }
+    arr = arr.filter(function(n) { return n !== undefined; });
+    if ( arr.length && arr[0] !== opts.title ) { arr.unshift(opts.title); }
     document.title = ( arr.length ) ? arr.join(' | ') : opts.title ;
   }
 
@@ -194,13 +188,9 @@
     var hour = ( hours > 12 ) ? hours - 12 : hours ;
     var mins = d.getMinutes() + 1;
     var am = ( hours >= 12 ) ? 'p' : 'a' ;
-    if ( format === 'my' ) {
-      return month + ' ' + year;
-    } else if ( format === 'mdy' ) {
-      return month + ' ' + day + ', ' + year;
-    } else {
-      return month + ' ' + day + ', ' + year + ' @ ' + hour + ':' + mins + am;
-    }
+    if ( format === 'my' ) { return month + ' ' + year; }
+    else if ( format === 'mdy' ) { return month + ' ' + day + ', ' + year; }
+    else { return month + ' ' + day + ', ' + year + ' @ ' + hour + ':' + mins + am; }
   }
 
   // return public api

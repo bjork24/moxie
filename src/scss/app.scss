@@ -1,11 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
-nav {
-  background-color: #900;
-  color: #FFF;
-  a {
-    color: #FFF;
-  }
-}
+@import 'vendor/normalize';
+@import 'variables';
+@import 'mixins';
+@import 'globals';
+@import 'layout';
+@import 'patterns';
+@import 'modules';

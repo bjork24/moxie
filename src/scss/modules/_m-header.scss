@@ -1,0 +1,52 @@
+$m : '.m-header';
+
+// header section
+#{$m} {
+  h1 {
+    text-align: center;
+    font-size: 20vw;
+    margin: 0;
+    line-height: 20vw;
+    padding-left: 2vw;
+    text-shadow: text-shadow(2, $color-light-gray);
+    letter-spacing: 5vw;
+    transition: all 0.5s ease;
+    &:hover {
+      letter-spacing: 4vw;
+      text-shadow: text-shadow(2, $color-red);;
+    }
+    a {
+      display: block;
+      color: $color-black;
+    }
+    @media(min-width: 400px) {
+      text-shadow: text-shadow(3, $color-light-gray);
+      &:hover {
+        text-shadow: text-shadow(3, $color-red);;
+      }
+    }
+    @media(min-width: 500px) {
+      text-shadow: text-shadow(4, $color-light-gray);
+      &:hover {
+        text-shadow: text-shadow(4, $color-red);;
+      }
+    }
+    @media(min-width: 600px) {
+      text-shadow: text-shadow(6, $color-light-gray);
+      &:hover {
+        text-shadow: text-shadow(6, $color-red);;
+      }
+    }
+    @media(min-width: $container-width) {
+      font-size: 160px;
+      line-height: 160px;
+      padding: 0;
+      letter-spacing: 30px;
+      text-shadow: text-shadow(8, $color-light-gray);
+      &:hover {
+        letter-spacing: 20px;
+        text-shadow: text-shadow(8, $color-red);;
+      }
+    }
+  }
+}
