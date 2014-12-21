@@ -2,4 +2,7 @@
   box-sizing: border-box; }
 
 nav {
-  background-color: #900; }
+  background-color: #900;
+  color: #FFF; }
+  nav a {
+    color: #FFF; }

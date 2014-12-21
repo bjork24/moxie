@@ -1,10 +1,14 @@
-(function($){
+var Moxie = {};
+
+Moxie = (function($){
 
   'use strict';
 
   // options
   var opts = {
-    cache     : {},
+    partials  : 'partials/',
+    dataStore : 'data/',
+    urlBase   : 'moxie-blog',
     title     : 'The Moxie Blog',
     yield     : $('#js-yield')[0],
     dateField : 'created_at'
@@ -29,26 +33,26 @@
   // private controller method
   var controller = {
     index : function() {
-      render({ partial : 'partials/index' });
+      render({ partial : 'index' });
     },
     guestbook : function() {
-      render({ partial : 'partials/guestbook', json : 'data/guestbook', title : 'Guestbook' });
+      render({ partial : 'guestbook', json : 'guestbook', title : 'Guestbook' });
     },
     about : function() {
-      render({ partial : 'partials/about', title : 'About the Moxie Blog' });
+      render({ partial : 'about', title : 'About the Moxie Blog' });
     },
     phlog : {
       index : function() {
         render({
-          partial    : 'partials/phlog/index',
-          json       : 'data/phlogs/index',
+          partial    : 'phlog/index',
+          json       : 'phlogs/index',
           title      : 'Phlog'
         });
       },
       entry : function(ctx) {
         render({
-          partial    : 'partials/phlog/entry',
-          json       : 'data/phlogs/' + ctx.params.id,
+          partial    : 'phlog/entry',
+          json       : 'phlogs/' + ctx.params.id,
           title      : 'Phlog',
           titleJson  : 'title'
         });
@@ -57,16 +61,16 @@
     moxietv : {
       index : function() {
         render({
-          partial    : 'partials/moxietv/index',
-          json       : 'data/moxietv/index',
+          partial    : 'moxietv/index',
+          json       : 'moxietv/index',
           title      : 'Moxie TV',
           dateFormat : 'mdy'
         });
       },
       entry : function(ctx) {
         render({
-          partial    : 'partials/moxietv/entry',
-          json       : 'data/moxietv/' + ctx.params.id,
+          partial    : 'moxietv/entry',
+          json       : 'moxietv/' + ctx.params.id,
           title      : 'Moxie TV',
           dateFormat : 'mdy',
           titleJson  : 'title'
@@ -76,26 +80,25 @@
     blog : {
       archive : function(ctx) {
         var year = parseInt(ctx.params.year) || 2004;
-        title(['Archive']);
         archive(year);
       },
       entry : function(ctx) {
         render({
-          partial    : 'partials/blog/entry',
-          json       : 'data/posts/' + ctx.params.id,
+          partial    : 'blog/entry',
+          json       : 'posts/' + ctx.params.id,
           titleJson  : 'title'
         });
       }
     },
     notFound : function() {
-      render({ partial : 'partials/404', title : 'Not found' });
+      render({ partial : '404', title : 'Not found' });
     }
   };
 
   // build archive page
   var archive = function(year) {
     var archiveData = [];
-    get('data/archive/year/' + year, function(data) {
+    get(opts.dataStore + 'archive/year/' + year + '.json', true, function(data) {
       for ( var month in data ) {
         var monthInt = parseInt(month) - 1;
         if ( data[month].length ) {
@@ -113,78 +116,85 @@
           archiveData.push(collection);
         }
       }
-      get('partials/blog/archive', function(html) {
+      var partial = opts.partials + 'blog/archive.html';
+      get(partial, undefined, function(html) {
         archiveData = { 'months' : archiveData };
         opts.yield.innerHTML = Mustache.render(html, archiveData);
       });
     });
   };
 
-  // get method for partials and data
-  function get(file, cb) {
-    var ext = ( file.indexOf('data') !== -1 ) ? 'json' : 'html' ;
-    if ( opts.cache[file] ) {
-      cb(opts.cache[file]);
-    } else {
-      file = file + '.' + ext;
-      var rq = new XMLHttpRequest();
-      rq.open('GET', file, true);
-      rq.onload = function() {
-        if ( rq.status >= 200 && rq.status < 400 ) {
-          var data = ( ext === 'json' ) ? JSON.parse(rq.responseText) : rq.responseText ;
-          opts.cache[file] = data;
-          cb(data);
-        } else {
-          throw 'Server error!';
-        }
-      };
-      rq.onerror = function() {
-        throw 'Connection error!';
-      };
-      rq.send();
-    }
-  }
+  // ajax get
+  var get = function(file, json, cb) {
+    var rq = new XMLHttpRequest();
+    rq.open('GET', file, true);
+    rq.onload = function() {
+      if ( rq.status >= 200 && rq.status < 400 ) {
+        var resp = ( isUndef(json) ) ? rq.responseText : JSON.parse(rq.responseText) ;
+        cb(resp, rq);
+      } else {
+        throw 'Server error!';
+      }
+    };
+    rq.onerror = function() {
+      throw 'Connection error!';
+    };
+    rq.send();
+  };
 
-  // render templates
-  function render(o) {
-    var titleArr = [];
-    titleArr.push(o.title);
-    if ( isUndef(o.json) ) {
-      get(o.partial, function(html) {
-        opts.yield.innerHTML = html;
-      });
-    } else {
-      get(o.partial, function(template) {
-        get(o.json, function(json) {
-          json.time = function() {
+  // render template
+  var render = function(o) {
+    var partial = opts.partials + o.partial + '.html';
+    get(partial, undefined, function(partial) {
+      var titleArr = [];
+      if ( !isUndef(o.title) ) {
+        titleArr.push(o.title);
+      }
+      // static partial render
+      if ( isUndef(o.json) ) {
+        opts.yield.innerHTML = partial;
+        if ( !isUndef(o.success) ) {
+          o.success();
+        }
+      // import data into partial
+      } else {
+        var json = opts.dataStore + o.json + '.json';
+        get(json, true, function(data) {
+          data.time = function() {
             var format = o.dateFormat || '' ;
             return time(this[opts.dateField], format);
           };
-          opts.yield.innerHTML = Mustache.render(template, json);
+          opts.yield.innerHTML = Mustache.render(partial, data);
           if ( !isUndef(o.titleJson) ) {
-            titleArr.push(json[o.titleJson]);
+            // set the title again if extra
+            titleArr.push(data[o.titleJson]);
             title(titleArr);
           }
+          if ( !isUndef(o.success) ) {
+            o.success(data);
+          }
         });
-      });
-    }
-    title(titleArr);
-  }
+      }
+      // set the title
+      title(titleArr);
+    });
+  };
 
   // switch page title
-  function title(arr) {
-    arr = arr.filter(function(n){ return n !== undefined; });
+  var title = function(arr) {
     if ( arr.length && arr[0] !== opts.title ) {
       arr.unshift(opts.title);
     }
     document.title = ( arr.length ) ? arr.join(' | ') : opts.title ;
-  }
+  };
 
   // simple undefined check
-  function isUndef(o) { return typeof o === 'undefined'; }
+  var isUndef = function(o) {
+    return typeof o === 'undefined';
+  };
 
   // convert timestamp
-  function time(stamp, format) {
+  var time = function(stamp, format) {
     var d = new Date(stamp);
     var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     var month = months[d.getMonth()];
@@ -201,11 +211,11 @@
     } else {
       return month + ' ' + day + ', ' + year + ' @ ' + hour + ':' + mins + am;
     }
-  }
+  };
 
   // return public api
   return {
     router : router
   };
 
-}(qwery)).router();
+})(qwery).router();
