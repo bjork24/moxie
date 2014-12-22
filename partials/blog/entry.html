@@ -6,7 +6,7 @@
     <li class="time">{{ time }}</li>
   </ul>
   <section>
-    {{& body }}
+    {{{ cleanBody }}}
   </section>
   <section class="m-comments">
     <a name="comments"></a>
@@ -15,7 +15,7 @@
       {{#comments}}
       <li>
         <b>{{ author }}</b>
-        <p>{{{ body }}}</p>
+        <p>{{{ cleanBody }}}</p>
         <i>{{ time }}</i>
       </li>
       {{/comments}}

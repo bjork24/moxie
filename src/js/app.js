@@ -158,6 +158,9 @@
             var format = o.dateFormat || '' ;
             return time(this[opts.dateField], format);
           };
+          json.cleanBody = function() {
+            return this.body.replace(/\r\n/g,'<br/>');
+          };
           opts.yield.innerHTML = Mustache.render(template, json);
           if ( !isUndef(o.titleJson) ) {
             titleArr.push(json[o.titleJson]);

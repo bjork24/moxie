@@ -459,42 +459,45 @@ a {
   margin: 0;
   padding: 0; }
   .m-comments ol li {
-    margin: 2rem 0; }
+    padding: 2rem 0;
+    border-bottom: 1px solid #b3b3b3; }
+    .m-comments ol li:last-child {
+      border: 0; }
     @media (min-width: 700px) { }
-  .m-comments ol b {
-    margin: 0;
-    font-size: 1rem; }
-    .m-comments ol b:after {
-      content: ':';
-      margin-right: 0.15rem; }
-    @media (min-width: 700px) {
-      .m-comments ol b {
-        float: left;
-        display: block;
-        width: 25%;
-        text-align: right; }
-        .m-comments ol b:after {
-          content: '';
-          margin-right: 0; } }
-  .m-comments ol p {
-    margin: 0;
-    display: inline; }
-    @media (min-width: 700px) {
-      .m-comments ol p {
-        float: right;
-        display: block;
-        width: 70%; } }
-  .m-comments ol i {
-    display: block;
-    margin: 0.25rem 0 0 0;
-    font-size: 0.7rem;
-    color: #737373; }
-    @media (min-width: 700px) {
-      .m-comments ol i {
-        float: left;
-        display: block;
-        width: 25%;
-        text-align: right; } }
+    .m-comments ol li > b {
+      margin: 0;
+      font-size: 1rem; }
+      .m-comments ol li > b:after {
+        content: ':';
+        margin-right: 0.15rem; }
+      @media (min-width: 700px) {
+        .m-comments ol li > b {
+          float: left;
+          display: block;
+          width: 25%;
+          text-align: right; }
+          .m-comments ol li > b:after {
+            content: '';
+            margin-right: 0; } }
+    .m-comments ol li > p {
+      margin: 0;
+      display: inline; }
+      @media (min-width: 700px) {
+        .m-comments ol li > p {
+          float: right;
+          display: block;
+          width: 70%; } }
+    .m-comments ol li > i {
+      display: block;
+      margin: 0.25rem 0 0 0;
+      font-size: 0.7rem;
+      color: #737373; }
+      @media (min-width: 700px) {
+        .m-comments ol li > i {
+          float: left;
+          display: block;
+          width: 25%;
+          text-align: right; } }
 
 .m-moxietv__index {
   list-style-type: none;
@@ -642,8 +645,8 @@ a {
     width: 100vw;
     max-width: 500px;
     display: block;
-    margin: 1.5rem -1.5rem; }
+    margin: 0 -1.5rem -1.5rem -1.5rem; }
     @media (min-width: 500px) {
       .m-entry section img {
         width: 100%;
-        margin: 1.5rem auto; } }
+        margin: 0 auto -1.5rem auto; } }
