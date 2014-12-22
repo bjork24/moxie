@@ -1,0 +1,59 @@
+$m : '.m-comments';
+
+// basic comments list
+#{$m} {
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin: 2rem 0;
+      @media(min-width: 700px) {
+        @extend %clearfix;
+      }
+    }
+    h4 {
+      margin: 0;
+      display: inline;
+      font-size: 1rem;
+      &:after {
+        content: ':';
+        display: inline;
+        margin-right: .25rem;
+      }
+      @media(min-width: 700px) {
+        float: left;
+        display: block;
+        width: 25%;
+        text-align: right;
+        font-size: .9rem;
+        &:after {
+          content: '';
+          margin-right: 0;
+        }
+      }
+    }
+    p {
+      margin: 0;
+      display: inline;
+      @media(min-width: 700px) {
+        float: right;
+        display: block;
+        width: 70%;
+      }
+    }
+    h6 {
+      margin: .25rem 0 0 0;
+      font-family: $font-body;
+      font-weight: 400;
+      font-size: .7rem;
+      color: lighten($color-black, 25%);
+      @media(min-width: 700px) {
+        float: left;
+        display: block;
+        width: 25%;
+        text-align: right;
+      }
+    }
+  }
+}

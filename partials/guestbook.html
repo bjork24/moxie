@@ -2,11 +2,16 @@
 
 <p>Remember when having a guestbook on your website was a thing? No? Well, I do, and this page stands as proof that the Moxie Blog had one of the best guestbooks around.</p>
 
+<hr/>
+
+<div class="m-comments">
 <ol>
   {{#entries}}
   <li>
-    <h3>{{ body }}</h3>
-    <h6>{{ author }}</h6>
+    <h4>{{ author }}</h4>
+    <p>{{ body }}</p>
+    <h6>{{ time }}</h6>
   </li>
   {{/entries}}
 </ol>
+</div>

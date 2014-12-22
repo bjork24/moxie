@@ -188,6 +188,7 @@
     var hours = d.getHours() + 1;
     var hour = ( hours > 12 ) ? hours - 12 : hours ;
     var mins = d.getMinutes() + 1;
+    mins = ( mins < 10 ) ? '0' + mins : mins ;
     var am = ( hours >= 12 ) ? 'p' : 'a' ;
     if ( format === 'my' ) { return month + ' ' + year; }
     else if ( format === 'mdy' ) { return month + ' ' + day + ', ' + year; }

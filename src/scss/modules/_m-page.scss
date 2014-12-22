@@ -16,4 +16,10 @@ $m : '.m-page';
   p {
     margin-bottom: 1.5rem;
   }
+  hr {
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid lighten($color-black, 50%);
+    margin: 2rem 0;
+  }
 }

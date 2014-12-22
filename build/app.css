@@ -320,22 +320,20 @@ table {
 td, th {
   padding: 0; }
 
-.m-nav {
+.m-nav, .m-comments ol li {
   *zoom: 1; }
-  .m-nav:before, .m-nav:after {
+  .m-nav:before, .m-comments ol li:before, .m-nav:after, .m-comments ol li:after {
     content: " ";
     display: table; }
-  .m-nav:after {
+  .m-nav:after, .m-comments ol li:after {
     clear: both; }
-
-* {
-  box-sizing: border-box; }
 
 html {
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.4; }
+  line-height: 1.4;
+  box-sizing: border-box; }
   @media (min-width: 300px) {
     html {
       font-size: 17px; } }
@@ -351,6 +349,9 @@ html {
   @media (min-width: 700px) {
     html {
       font-size: 21px; } }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif; }
@@ -452,3 +453,54 @@ a {
     margin-top: 0; }
 .m-page p {
   margin-bottom: 1.5rem; }
+.m-page hr {
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid #b3b3b3;
+  margin: 2rem 0; }
+
+.m-comments ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .m-comments ol li {
+    margin: 2rem 0; }
+    @media (min-width: 700px) { }
+  .m-comments ol h4 {
+    margin: 0;
+    display: inline;
+    font-size: 1rem; }
+    .m-comments ol h4:after {
+      content: ':';
+      display: inline;
+      margin-right: 0.25rem; }
+    @media (min-width: 700px) {
+      .m-comments ol h4 {
+        float: left;
+        display: block;
+        width: 25%;
+        text-align: right;
+        font-size: 0.9rem; }
+        .m-comments ol h4:after {
+          content: '';
+          margin-right: 0; } }
+  .m-comments ol p {
+    margin: 0;
+    display: inline; }
+    @media (min-width: 700px) {
+      .m-comments ol p {
+        float: right;
+        display: block;
+        width: 70%; } }
+  .m-comments ol h6 {
+    margin: 0.25rem 0 0 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #737373; }
+    @media (min-width: 700px) {
+      .m-comments ol h6 {
+        float: left;
+        display: block;
+        width: 25%;
+        text-align: right; } }
