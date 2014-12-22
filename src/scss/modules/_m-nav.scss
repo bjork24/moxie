@@ -70,7 +70,9 @@ $m : '.m-nav';
       }
       .toggle {
         z-index: 100;
-        top: -.5rem;
+        position: fixed;
+        right: 1.5rem;
+        top: 1rem;
         &:before {
           content: "x";
           display: block;

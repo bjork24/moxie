@@ -335,7 +335,7 @@ html {
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.3; }
+  line-height: 1.4; }
   @media (min-width: 300px) {
     html {
       font-size: 17px; } }
@@ -428,7 +428,9 @@ a {
         color: #FFF; }
     .m-nav.open-nav .toggle {
       z-index: 100;
-      top: -0.5rem; }
+      position: fixed;
+      right: 1.5rem;
+      top: 1rem; }
       .m-nav.open-nav .toggle:before {
         content: "x";
         display: block;
@@ -440,9 +442,13 @@ a {
         color: #FFF;
         background-color: transparent; } }
 
-.m-index h1 {
-  margin: 0;
-  padding-bottom: 1.3rem;
+.m-page h1 {
+  margin: 2rem 0 1.5rem 0;
   font-size: 3rem;
   line-height: 1.2;
-  border-bottom: 1px solid #b3b3b3; }
+  border-bottom: 1px solid #b3b3b3;
+  padding-bottom: 1.3rem; }
+  .m-page h1:first-child {
+    margin-top: 0; }
+.m-page p {
+  margin-bottom: 1.5rem; }
