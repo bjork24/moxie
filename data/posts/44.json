@@ -1,7 +1,7 @@
 {
   "id": 44,
   "title": "Tables are dead",
-  "body": "As a test of my newly gained knowledge of CSS-P, I silently switched this blog from table-based design to pure CSS-P yesterday. Don't believe me? Check the source code. I haven't gotten a chance to revert the secondary pages yet (i.e. comments, guestbook, quote archive), but they'll fall in line soon enough. So if you any of you have difficulty viewing this blog in all its CSS-P glory, please let me know. Tell me what browser and OS you're using, and I'll try my hardest to refrain from mocking you and telling you to upgrade to something that was released within the last 5 years (sorry, my inner IT snob sometimes gets the best of me). Either way, enjoy.\r\n\r\nAlso, since we're on the topic of CSS-P and web development, <b>The Moxie's</b> webpage is coming along swimmingly. I still have to program the back-end administrative stuff, but for the most part all of the design work is complete. I forsee another post about website features in the near future. Won't that be exciting? Until next time... peace out*.\r\n\r\n*NOTE: <i>Hearing the phrase \"peace out\" makes the author squirm and cringe, much like these equally rage-inducing locutions:</i>\r\n\r\n+ \"Back in the day...\"\r\n+ \"Bologna head! Bologna head!\"\r\n+ \"[INSERT POP STAR] is so cool.\"\r\n+ \"Wanna Fanta?\"\r\n+ \"Where's my cap?\"",
+  "body": "As a test of my newly gained knowledge of CSS-P, I silently switched this blog from table-based design to pure CSS-P yesterday. Don't believe me? Check the source code. I haven't gotten a chance to revert the secondary pages yet (i.e. comments, guestbook, quote archive), but they'll fall in line soon enough. So if you any of you have difficulty viewing this blog in all its CSS-P glory, please let me know. Tell me what browser and OS you're using, and I'll try my hardest to refrain from mocking you and telling you to upgrade to something that was released within the last 5 years (sorry, my inner IT snob sometimes gets the best of me). Either way, enjoy.<br/><br/>Also, since we're on the topic of CSS-P and web development, <b>The Moxie's</b> webpage is coming along swimmingly. I still have to program the back-end administrative stuff, but for the most part all of the design work is complete. I forsee another post about website features in the near future. Won't that be exciting? Until next time... peace out*.<br/><br/>*NOTE: <i>Hearing the phrase \"peace out\" makes the author squirm and cringe, much like these equally rage-inducing locutions:</i><br/><br/>+ \"Back in the day...\"<br/>+ \"Bologna head! Bologna head!\"<br/>+ \"[INSERT POP STAR] is so cool.\"<br/>+ \"Wanna Fanta?\"<br/>+ \"Where's my cap?\"",
   "author_id": 1,
   "allow_comments": 1,
   "created_at": "2004-08-05T00:29:11.000Z",
@@ -9,7 +9,7 @@
   "comments": [
     {
       "author": "Newell",
-      "body": "But, dude! Back in the day, \"peace out\" was the bomb!!!\r\n\r\nBy the by, I love what you've done with the place. It looks so much better this way. Despite it not really looking different at all... yeah...",
+      "body": "But, dude! Back in the day, \"peace out\" was the bomb!!!<br/><br/>By the by, I love what you've done with the place. It looks so much better this way. Despite it not really looking different at all... yeah...",
       "created_at": "2004-08-05T06:20:21.000Z"
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "author": "jimmy mchoo",
-      "body": "Excellent site, added to favorites!!\r\nThis is my site:\r\nhttp://jimmy-choo-handbags.blogspot.com",
+      "body": "Excellent site, added to favorites!!<br/>This is my site:<br/>http://jimmy-choo-handbags.blogspot.com",
       "created_at": "2006-05-09T14:06:20.000Z"
     },
     {

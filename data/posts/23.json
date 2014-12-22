@@ -1,7 +1,7 @@
 {
   "id": 23,
   "title": "Website",
-  "body": "I began laying the groundwork for our theater's website this weekend. I'd been wanting to do this for a long time, but everytime I worked on it I would inevitably end up questioning whether I was putting the cart before the horse. I always figured there were more important tasks to tackle, and, up until this point, there always were. Now we're in a semi holding pattern, which means it's time to start hammering out a website.\r\n\r\nI've already fine-tuned the design, or shall I say \"the look,\" of the website through this blog. As you can see, the majority of the site is simple CSS with a little PHP sprinkled around for functionality. As far as web design practices go, I always try to steer clear of graphic-laden interfaces to increase page loading speed and enhance the general cleanliness of the site. Of course, this doesn't mean that the theater's website will be completely void of images. It will have lots of relevant graphics along the lines of movie images, posters, event photos, dancing babies, animated gifs, etc..\r\n\r\nAs I mentioned in an <a href=\"/posts/16\">earlier post</a>, one of the main points of the website will be to educate our audience about current and upcoming films. Our movie listings will not only have showtimes and synopses, but they'll also include relevant links (i.e. IMDB, Rotten Tomatoes, etc.) and a dedicated forum topic on our theater's bulletin board. We're also going to have a weekly e-mail newsletter that people can sign up for online (or in the theater, if they so choose), a page dedicated to our unique selection of concessions and beverages at the Cinebar, and lots of little features that will help make our website as unique as the theater.\r\n\r\nThe whole website will be laid out over a PHP/mySQL database, which will help make the continual updates as painless as possible. Along with our main website, I'm also going to register several domain names like MidwestburgCinema.com and MidwestburgMovieTimes.com, and build a community-wide movie showtime database. The purpose for these websites will be to create a singular online repository for all the films that are currently playing in Midwestburg. Of course, since we own the websites, it shouldn't be all too surprising that our films will be featured at the top of the page with the most detailed information and the biggest pictures. These sites will also be a great way for us to bring in some additional revenue through targeted banner ads.\r\n\r\nThe only problem with these websites will be the constant updating of movie times from the other theaters. I could build a PHP script that leeches the times from Yahoo Movies or Fandango, but those types of scripts always run the risk of becoming irrelevant if the original site is changed or compromised in any way. There's also a few pay services that provide listing feeds, but I don't want to pay for something that I know I can get free somewhere else. I'm sure I'll think of something eventually.\r\n\r\nOne last thing before I go. Since we're on the topic of webpages and online features... between the two of us, Nicole and I have NINE GMail invites at our disposal. If you'd like one, here's what to do:\r\n<ol>\r\n<li>Leave a comment to this post with your name and e-mail address</li>\r\n<li>Include one of the following (or all three if you like):</li>\r\n<ul>\r\n<li>Suggest a feature that you'd like to see on our theater's website</li>\r\n<li>Your best guess as to where Midwestburg might be</li>\r\n<li>Finish this sentence: \"I deserve a GMail invite because...\"</li>\r\n</ul>\r\n<li>Submit your comment, sit back, and wait.</li>\r\n<li>Nicole and I will disperse the invites over the next couple days.</li>\r\n</ol>\r\nIf you already have a GMail account, or don't care to receive one, your comments are still welcomed and encouraged, as always.\r\n\r\n",
+  "body": "I began laying the groundwork for our theater's website this weekend. I'd been wanting to do this for a long time, but everytime I worked on it I would inevitably end up questioning whether I was putting the cart before the horse. I always figured there were more important tasks to tackle, and, up until this point, there always were. Now we're in a semi holding pattern, which means it's time to start hammering out a website.<br/><br/>I've already fine-tuned the design, or shall I say \"the look,\" of the website through this blog. As you can see, the majority of the site is simple CSS with a little PHP sprinkled around for functionality. As far as web design practices go, I always try to steer clear of graphic-laden interfaces to increase page loading speed and enhance the general cleanliness of the site. Of course, this doesn't mean that the theater's website will be completely void of images. It will have lots of relevant graphics along the lines of movie images, posters, event photos, dancing babies, animated gifs, etc..<br/><br/>As I mentioned in an <a href=\"/posts/16\">earlier post</a>, one of the main points of the website will be to educate our audience about current and upcoming films. Our movie listings will not only have showtimes and synopses, but they'll also include relevant links (i.e. IMDB, Rotten Tomatoes, etc.) and a dedicated forum topic on our theater's bulletin board. We're also going to have a weekly e-mail newsletter that people can sign up for online (or in the theater, if they so choose), a page dedicated to our unique selection of concessions and beverages at the Cinebar, and lots of little features that will help make our website as unique as the theater.<br/><br/>The whole website will be laid out over a PHP/mySQL database, which will help make the continual updates as painless as possible. Along with our main website, I'm also going to register several domain names like MidwestburgCinema.com and MidwestburgMovieTimes.com, and build a community-wide movie showtime database. The purpose for these websites will be to create a singular online repository for all the films that are currently playing in Midwestburg. Of course, since we own the websites, it shouldn't be all too surprising that our films will be featured at the top of the page with the most detailed information and the biggest pictures. These sites will also be a great way for us to bring in some additional revenue through targeted banner ads.<br/><br/>The only problem with these websites will be the constant updating of movie times from the other theaters. I could build a PHP script that leeches the times from Yahoo Movies or Fandango, but those types of scripts always run the risk of becoming irrelevant if the original site is changed or compromised in any way. There's also a few pay services that provide listing feeds, but I don't want to pay for something that I know I can get free somewhere else. I'm sure I'll think of something eventually.<br/><br/>One last thing before I go. Since we're on the topic of webpages and online features... between the two of us, Nicole and I have NINE GMail invites at our disposal. If you'd like one, here's what to do:<br/><ol><br/><li>Leave a comment to this post with your name and e-mail address</li><br/><li>Include one of the following (or all three if you like):</li><br/><ul><br/><li>Suggest a feature that you'd like to see on our theater's website</li><br/><li>Your best guess as to where Midwestburg might be</li><br/><li>Finish this sentence: \"I deserve a GMail invite because...\"</li><br/></ul><br/><li>Submit your comment, sit back, and wait.</li><br/><li>Nicole and I will disperse the invites over the next couple days.</li><br/></ol><br/>If you already have a GMail account, or don't care to receive one, your comments are still welcomed and encouraged, as always.<br/><br/>",
   "author_id": 1,
   "allow_comments": 1,
   "created_at": "2004-06-21T20:02:51.000Z",
@@ -9,12 +9,12 @@
   "comments": [
     {
       "author": "Kulturbrille",
-      "body": "It would be interesting if you could have a way of voting for films that you haven't decided to bring in or which are classics or yesteryear's best. People would then have a say in what they could watch otherwise. They could suggest titles or you could have a list, and votes or a running tally of the most popular films would occupy a small corner of your main page.\r\n\r\nA gmail invite would be nice. :)",
+      "body": "It would be interesting if you could have a way of voting for films that you haven't decided to bring in or which are classics or yesteryear's best. People would then have a say in what they could watch otherwise. They could suggest titles or you could have a list, and votes or a running tally of the most popular films would occupy a small corner of your main page.<br/><br/>A gmail invite would be nice. :)",
       "created_at": "2004-06-21T21:33:55.000Z"
     },
     {
       "author": "WhimsyChick",
-      "body": "\"I deserve a GMail invite because...\"\r\n\r\n... I am a loyal reader and will be the first person in line when \"Cinema 24\" opens (even if it means I have to drive out of state to do it.) Seriously!",
+      "body": "\"I deserve a GMail invite because...\"<br/><br/>... I am a loyal reader and will be the first person in line when \"Cinema 24\" opens (even if it means I have to drive out of state to do it.) Seriously!",
       "created_at": "2004-06-21T22:20:43.000Z"
     },
     {
@@ -44,12 +44,12 @@
     },
     {
       "author": "chicken",
-      "body": "Do the cinemas where you are getting show times for distribute a weekly email with show times? If they do it would be easy to write a script to strip the info from these emails and dump them into your database for reference. \r\n\r\nno gmail needed thanks - I have plenty spare if you run out - they keep throwing 6 invites a day at me :(\r\n\r\nMxx",
+      "body": "Do the cinemas where you are getting show times for distribute a weekly email with show times? If they do it would be easy to write a script to strip the info from these emails and dump them into your database for reference. <br/><br/>no gmail needed thanks - I have plenty spare if you run out - they keep throwing 6 invites a day at me :(<br/><br/>Mxx",
       "created_at": "2004-06-21T23:47:39.000Z"
     },
     {
       "author": "Scott",
-      "body": "It would be great if your website let you subscribe to movie title/actors/directors and get emailed either when they have a movie coming out, or when your theatre is showing.  Depending on the size of Midwestburg, you may not get first run art movies.  I know in my small town I am always checking the listings for small, but anticipated releases (e.g. Supersize Me still has not made it to my town).\r\n\r\nI know you don't like relying on other sites, but there may be a way to easily link up to some existing web services or even tie into IMDB.  Or, worst case, you can add the movie names, director, and principal actors when you add new movies every week.  Registered users could get emailed with all of this data (if they choose to, no spam intended), or alerted for a specific person.\r\n\r\nAnd I would LOVE a gmail address. :-)",
+      "body": "It would be great if your website let you subscribe to movie title/actors/directors and get emailed either when they have a movie coming out, or when your theatre is showing.  Depending on the size of Midwestburg, you may not get first run art movies.  I know in my small town I am always checking the listings for small, but anticipated releases (e.g. Supersize Me still has not made it to my town).<br/><br/>I know you don't like relying on other sites, but there may be a way to easily link up to some existing web services or even tie into IMDB.  Or, worst case, you can add the movie names, director, and principal actors when you add new movies every week.  Registered users could get emailed with all of this data (if they choose to, no spam intended), or alerted for a specific person.<br/><br/>And I would LOVE a gmail address. :-)",
       "created_at": "2004-06-22T00:26:05.000Z"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "author": "Ryan",
-      "body": "I think you should have polls on your website for classic movies. I know that there are a bunch of movies that I missed in the theatre that I wished I could get another shot at, so have the people vote online and the winner gets a midnite showing on Friday or something. That would be awesome. \r\nAnd I need a gmail account because I just graduated from college and they terminated my email account, so now I have to rely on hotmail......ugh... Thanks",
+      "body": "I think you should have polls on your website for classic movies. I know that there are a bunch of movies that I missed in the theatre that I wished I could get another shot at, so have the people vote online and the winner gets a midnite showing on Friday or something. That would be awesome. <br/>And I need a gmail account because I just graduated from college and they terminated my email account, so now I have to rely on hotmail......ugh... Thanks",
       "created_at": "2004-06-22T05:41:41.000Z"
     },
     {
@@ -69,17 +69,17 @@
     },
     {
       "author": "Simon",
-      "body": "Rather than have a dedicated forum topic for each film, why not consider simpler commenting on a detail page for each film listed - this keeps relevant content together and avoids extra navigation - ala IMDB. An even cooler feature would be community submitted reviews which could be rated by visitors.\r\n\r\nI'd love a GMail account by the way....",
+      "body": "Rather than have a dedicated forum topic for each film, why not consider simpler commenting on a detail page for each film listed - this keeps relevant content together and avoids extra navigation - ala IMDB. An even cooler feature would be community submitted reviews which could be rated by visitors.<br/><br/>I'd love a GMail account by the way....",
       "created_at": "2004-06-22T09:18:37.000Z"
     },
     {
       "author": "Bryson",
-      "body": "I think it would be a really neat idea if you could have an \"If you liked this movie, you might enjoy...\" on every movie,  or a link to the movie's prequels, sequels, and with a \"Did you know?\" type of feature on the main page. I always love those, as it teaches me a lot about movies and makes me want to see some of them a lot more (The Bourne series being books, that a new Bourne book is coming out, etc etc.)\r\n\r\nto answer where I think midwestburg is (has anyone even tried yet) would be, northern california or perhaps southern oregon... coos bay oregon? eureka ca?)\r\n\r\nAnd I believe I deserve an account because, among trying to get one for a long time, I love to check out new things, and I am an up and coming video game reviewer (I work for Vg-Force.com) and it would be great to be able to store all the screenshots/movies/ideas that I would ever want to.\r\n\r\nThanks a lot!\r\n\r\nBryson",
+      "body": "I think it would be a really neat idea if you could have an \"If you liked this movie, you might enjoy...\" on every movie,  or a link to the movie's prequels, sequels, and with a \"Did you know?\" type of feature on the main page. I always love those, as it teaches me a lot about movies and makes me want to see some of them a lot more (The Bourne series being books, that a new Bourne book is coming out, etc etc.)<br/><br/>to answer where I think midwestburg is (has anyone even tried yet) would be, northern california or perhaps southern oregon... coos bay oregon? eureka ca?)<br/><br/>And I believe I deserve an account because, among trying to get one for a long time, I love to check out new things, and I am an up and coming video game reviewer (I work for Vg-Force.com) and it would be great to be able to store all the screenshots/movies/ideas that I would ever want to.<br/><br/>Thanks a lot!<br/><br/>Bryson",
       "created_at": "2004-06-22T10:49:58.000Z"
     },
     {
       "author": "Oz",
-      "body": "This is more of a design recommendation than a feature rec, but what the heck.  Put the movie showtimes on the front page of the website.  I know the temptation is to make some meaningless, pretty page with a stupid \"enter\" link.  I hate that shit.  I mean, I came to your website because I wanted to see it's content, not because I wanted to type in the URL and THEN decide whether or not I want to \"enter.\"  And the majority of people checking out your site will want movie times.  All the other stuff is nice and dandy but really just pointless drivel if you don't know when the movies are playing.  So put that on the first page, front and center, and save everybody some time.\r\n\r\nAnd I deserve an invite to gmail because I am a very interesting person.",
+      "body": "This is more of a design recommendation than a feature rec, but what the heck.  Put the movie showtimes on the front page of the website.  I know the temptation is to make some meaningless, pretty page with a stupid \"enter\" link.  I hate that shit.  I mean, I came to your website because I wanted to see it's content, not because I wanted to type in the URL and THEN decide whether or not I want to \"enter.\"  And the majority of people checking out your site will want movie times.  All the other stuff is nice and dandy but really just pointless drivel if you don't know when the movies are playing.  So put that on the first page, front and center, and save everybody some time.<br/><br/>And I deserve an invite to gmail because I am a very interesting person.",
       "created_at": "2004-06-22T17:00:39.000Z"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "author": "emanuel",
-      "body": "cool... pretty interesting your blog! check out mine at www.justeman.blogspot.com ... i'll ttyl! ciao!\r\n-emanuel f.",
+      "body": "cool... pretty interesting your blog! check out mine at www.justeman.blogspot.com ... i'll ttyl! ciao!<br/>-emanuel f.",
       "created_at": "2004-06-22T21:16:57.000Z"
     },
     {
@@ -129,12 +129,12 @@
     },
     {
       "author": "BG",
-      "body": "Are you talking about the amazon system? I'm sorry i didn't spot that. I did a quick search for paypal after reading a whole lotta stuff. :)\r\n\r\nExcuse me also because in this day and age of commercialism I am not quite used to not having 30 graphics jumps at me. Nobody reads the side bars anymore. It's a shame really.\r\n\r\n:)",
+      "body": "Are you talking about the amazon system? I'm sorry i didn't spot that. I did a quick search for paypal after reading a whole lotta stuff. :)<br/><br/>Excuse me also because in this day and age of commercialism I am not quite used to not having 30 graphics jumps at me. Nobody reads the side bars anymore. It's a shame really.<br/><br/>:)",
       "created_at": "2004-06-22T22:56:58.000Z"
     },
     {
       "author": "bjork24",
-      "body": "Oz - What makes you think Missouri?\r\n\r\nBG - So true. So true.",
+      "body": "Oz - What makes you think Missouri?<br/><br/>BG - So true. So true.",
       "created_at": "2004-06-22T23:26:24.000Z"
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "author": "Yvan",
-      "body": "I like your story and invitation\r\n  invites of celebrites can you visit my site?",
+      "body": "I like your story and invitation<br/>  invites of celebrites can you visit my site?",
       "created_at": "2004-06-24T01:03:16.000Z"
     },
     {
@@ -159,12 +159,12 @@
     },
     {
       "author": "Crystal Riley",
-      "body": "I deserve a gmail invite because I know what it is. And because I've never beta tested anything before, and I'm really excited by the idea that my feedback could be useful.\r\n\r\nAlso, I think midwestburg is Paducah, KY\r\n\r\nI am learning so much from your blog...I stopped bringing my own soda to the movies....though I still avoid going in long enough to miss the Fantanas.",
+      "body": "I deserve a gmail invite because I know what it is. And because I've never beta tested anything before, and I'm really excited by the idea that my feedback could be useful.<br/><br/>Also, I think midwestburg is Paducah, KY<br/><br/>I am learning so much from your blog...I stopped bringing my own soda to the movies....though I still avoid going in long enough to miss the Fantanas.",
       "created_at": "2004-06-25T06:35:58.000Z"
     },
     {
       "author": "Village Idiot",
-      "body": "I deserve a gmail account because I am sick and tired of using Hotmail, I am working hard to make some really good blogger templates that look like the Yahoo homepage (so I cheated, I used a template I found, but made it much better), and I have read this blog every time I can after discovering it through the blogger \"Blogs of Note\" thing.\r\n\r\nI really do like the idea you have for the theater. It is time for more small buisness in America. Keep the theater local!\r\n\r\nSo, if you get another gmail invite, please send one to me. (And take a look at the template I have done right now by clicking on the website link below!)",
+      "body": "I deserve a gmail account because I am sick and tired of using Hotmail, I am working hard to make some really good blogger templates that look like the Yahoo homepage (so I cheated, I used a template I found, but made it much better), and I have read this blog every time I can after discovering it through the blogger \"Blogs of Note\" thing.<br/><br/>I really do like the idea you have for the theater. It is time for more small buisness in America. Keep the theater local!<br/><br/>So, if you get another gmail invite, please send one to me. (And take a look at the template I have done right now by clicking on the website link below!)",
       "created_at": "2004-06-27T05:08:12.000Z"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "author": "supong",
-      "body": "i deserve a GMail invite because i want\r\nto use a bigemail storeage",
+      "body": "i deserve a GMail invite because i want<br/>to use a bigemail storeage",
       "created_at": "2004-07-01T10:43:03.000Z"
     },
     {
