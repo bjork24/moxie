@@ -1,4 +1,4 @@
-(function(doc){
+(function(doc, win){
 
   'use strict';
 
@@ -171,6 +171,7 @@
       });
     }
     title(titleArr);
+    win.scrollTo(0,0);
   }
 
   // switch page title
@@ -230,4 +231,4 @@
     router : router
   };
 
-}(document)).router();
+}(document, window)).router();
