@@ -453,11 +453,6 @@ a {
     margin-top: 0; }
 .m-page p {
   margin-bottom: 1.5rem; }
-.m-page hr {
-  height: 1px;
-  border: 0;
-  border-bottom: 1px solid #b3b3b3;
-  margin: 2rem 0; }
 
 .m-comments ol {
   list-style-type: none;

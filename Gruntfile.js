@@ -27,7 +27,7 @@ module.exports = function (grunt) {
       },
       css: {
         files: ['src/**/*.scss'],
-        tasks: ['libsass']
+        tasks: ['libsass', 'cssmin']
       },
       html: {
         files: ['**/*.html'],
@@ -43,6 +43,14 @@ module.exports = function (grunt) {
       dist: {
         src: 'src/scss/app.scss',
         dest: 'build/app.css'
+      }
+    },
+
+    cssmin: {
+      combine: {
+        files: {
+          'build/app.min.css': ['build/app.css']
+        }
       }
     },
 
@@ -83,6 +91,6 @@ module.exports = function (grunt) {
   });
 
 grunt.registerTask('server', ['concurrent:target']);
-grunt.registerTask('build', ['jshint', 'uglify', 'libsass']);
+grunt.registerTask('build', ['jshint', 'uglify', 'libsass', 'cssmin']);
 
 };
