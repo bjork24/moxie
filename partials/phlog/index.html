@@ -1,8 +1,14 @@
-<ol>
+<h1>Phlogs of The Moxie</h1>
+
+<p>Flickr was too new to use back in the heady days of early 2005, so I decided to take matters into my own hands and collect photos in these hand-spun picture posts. And in case you were wondering, photos + blog = phlog.</p>
+
+<ol class="m-phlog__index">
   {{#phlogs}}
-  <li>
-    <h3><a href="/phlog/{{ id }}">{{ title }}</a></h3>
-    <h6>{{ time }} comments {{ comments }}</h6>
+  <li style="background-image: url(/pix/phlog/thumbs/{{ thumb }});">
+    <a href="/phlog/{{ id }}">
+      <h3>{{ title }}</h3>
+      <p>{{ time }}, <span>{{ comments }} comments</span></p>
+    </a>
   </li>
   {{/phlogs}}
 </ol>

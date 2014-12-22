@@ -1,0 +1,35 @@
+$m : '.m-entry';
+
+// base
+#{$m} {
+  
+}
+
+// byline section
+#{$m}__byline {
+  list-style-type: none;
+  padding: 0;
+  margin: -1rem 0 1.5rem 0;
+  position: relative;
+  font-size: .75rem;
+  .comments {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+// entry holder
+#{$m} section {
+  font-size: 1rem;
+  img {
+    width: 100vw;
+    max-width: 500px;
+    display: block;
+    margin: 1.5rem -1.5rem;
+    @media(min-width: 500px) {
+      width: 100%;
+      margin: 1.5rem auto;
+    }
+  }
+}

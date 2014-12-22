@@ -8,6 +8,7 @@
     title     : 'The Moxie Blog',
     yield     : doc.querySelectorAll('#js-yield')[0],
     navToggle : doc.querySelectorAll('#js-nav-toggle')[0],
+    openNav   : 'open-nav',
     dateField : 'created_at'
   };
 
@@ -199,14 +200,15 @@
   // events 
   function events() {
     opts.navToggle.addEventListener('click', function() {
-      this.parentNode.classList.toggle('open-nav');
+      this.parentNode.classList.toggle(opts.openNav);
     });
     var navLinks = doc.querySelectorAll('.m-nav li a');
     var closeNav = function(){
       var el = opts.navToggle;
-      if (el.onclick) {
+      var nav = el.parentNode;
+      if ( el.onclick && nav.classList.contains(opts.openNav) ) {
         el.onclick();
-      } else if (el.click) {
+      } else if ( el.click && nav.classList.contains(opts.openNav) ) {
         el.click();
       }
     };

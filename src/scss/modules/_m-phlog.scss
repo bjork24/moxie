@@ -1,11 +1,11 @@
-$m : '.m-moxietv';
+$m : '.m-phlog';
 
-// index list
+// phlog index
 #{$m}__index {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  @media(min-width: 600px) {
+  @media(min-width: 500px) {
     @extend %clearfix
   }
   li {
@@ -14,12 +14,9 @@ $m : '.m-moxietv';
     background-size: cover;
     background-repeat: none;
     background-position: center;
-    height: 13rem;
+    height: 10rem;
     margin-bottom: 1.5rem;
     @media(min-width: 500px) {
-      height: 14rem;
-    }
-    @media(min-width: 600px) {
       width: 48%;
       height: 10rem;
       margin-bottom: 1.2rem;
@@ -33,53 +30,27 @@ $m : '.m-moxietv';
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0,0,0,0.75);
+      background-color: rgba(0,0,0,0.6);
       color: #FFF;
       padding: 1rem;
     }
     h3 {
       margin: 0;
       font-family: $font-body;
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       line-height: 1.1;
-      @media(min-width: 600px) {
-        font-size: 1.3rem;
-      }
+      @media(min-width: 500px) { font-size: 1.2rem; }
+      @media(min-width: 700px) { font-size: 1.4rem; }
     }
     p {
-      margin: .2rem 0 0 0;
+      margin: .3rem 0 0 0;
       font-size: .8rem;
       color: #AAA;
-    }
-    &:hover {
-      a {
-        background-color: transparent;
-      }
-      h3, p {
-        display: none;
+      @media(min-width: 500px) {
+        span {
+          display: block;
+        }
       }
     }
   }
-}
-
-// entry
-#{$m}__entry {
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 2rem 0 0 0;
-    li {
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-    b {
-      display: block;
-    }
-  }
-}
-
-// video embed
-#{$m}__video {
-  @include scale-element(4/3);
-  margin: 2rem 0;
 }

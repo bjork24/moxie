@@ -1,2 +1,24 @@
-<h1>{{ title }}</h1>
-<h3>Written by <a href="author/{{ author_id }}">{{ author }}</a> on {{ time }}</h3>
+<article class="m-entry">
+  <h1>{{ title }}</h1>
+  <ul class="m-entry__byline">
+    <li class="byline">Written by <a href="author/{{ author_id }}">{{ author }}</a></li>
+    <li class="comments"><a href="#comments">{{ comments.length }} comments</a></li>
+    <li class="time">{{ time }}</li>
+  </ul>
+  <section>
+    {{& body }}
+  </section>
+  <section class="m-comments">
+    <a name="comments"></a>
+    <h2>{{ comments.length }} comments</h2>
+    <ol>
+      {{#comments}}
+      <li>
+        <b>{{ author }}</b>
+        <p>{{{ body }}}</p>
+        <i>{{ time }}</i>
+      </li>
+      {{/comments}}
+    </ol>
+  </section>
+</article>
