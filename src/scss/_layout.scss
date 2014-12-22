@@ -2,6 +2,7 @@ $l : '.l-container';
 
 // main container
 #{$l} {
+  padding: 1.5rem;
   max-width: $container-width;
   margin: 0 auto;
 }

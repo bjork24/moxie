@@ -1,0 +1,12 @@
+$m : '.m-splash';
+
+// the front page
+#{$m} {
+  h1 {
+    margin: 0;
+    padding-bottom: 1.3rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    border-bottom: 1px solid $color-black;
+  }
+}
