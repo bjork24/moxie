@@ -1,7 +1,7 @@
 {
   "id": 364,
   "title": "Welcome to Moxie 2.0",
-  "body": "Here it is: the new Moxie Online Experience, version TWO POINT OH! Feel free to have a look around... you'll be surprised by how many dead links you <i>won't</i> find. There are still a few pages that have yet to roll out, but I'm not going to show them on the menu until they're 100% ready. Also, the new mod_rewrite structure might cause a few of the old blog links to not work, but I'll fix that shortly.<br/><br/>Sorry it took me so long to unveil the new design. Hopefully it was worth the wait. Send me your bugs, your huddled masses of design flaws, and your complaints. Either <a href=\"http://www.moxiecinema.com/contact\" class=\"broken\">via e-mail</a> or through the <a href=\"http://www.moxiecinema.com/suggest\" class=\"broken\">new suggestion page</a>. Woo hoo!",
+  "body": "Here it is: the new Moxie Online Experience, version TWO POINT OH! Feel free to have a look around... you'll be surprised by how many dead links you <i>won't</i> find. There are still a few pages that have yet to roll out, but I'm not going to show them on the menu until they're 100% ready. Also, the new mod_rewrite structure might cause a few of the old blog links to not work, but I'll fix that shortly.\r\n\r\nSorry it took me so long to unveil the new design. Hopefully it was worth the wait. Send me your bugs, your huddled masses of design flaws, and your complaints. Either <a href=\"http://www.moxiecinema.com/contact\" class=\"broken\">via e-mail</a> or through the <a href=\"http://www.moxiecinema.com/suggest\" class=\"broken\">new suggestion page</a>. Woo hoo!",
   "author_id": 1,
   "allow_comments": 1,
   "created_at": "2006-02-13T10:10:18.000Z",
@@ -59,7 +59,7 @@
     },
     {
       "author": "--Jeff",
-      "body": "Woo Hoo!   Site looks and behaves great.  A perfectly executed rollout Dan and Nicole...<br/><br/>Thanks for the RSS feeds, as soon as <a href=\"http://sage.mozdev.org/\">Sage</a> starts working better with Firefox 1.5.0.1, all will be well...",
+      "body": "Woo Hoo!   Site looks and behaves great.  A perfectly executed rollout Dan and Nicole...\r\n\r\nThanks for the RSS feeds, as soon as <a href=\"http://sage.mozdev.org/\">Sage</a> starts working better with Firefox 1.5.0.1, all will be well...",
       "created_at": "2006-02-14T01:59:53.000Z"
     },
     {
@@ -74,17 +74,17 @@
     },
     {
       "author": "brian of moore",
-      "body": "i think i found an error....<br/>... there hasnt been a photoblog since november...",
+      "body": "i think i found an error....\r\n... there hasnt been a photoblog since november...",
       "created_at": "2006-02-14T07:44:39.000Z"
     },
     {
       "author": "brian of moore",
-      "body": "on second thought.. the error might be that the 'photo tour' under misc.   ... isnt also listed on the photo blog<br/>or at least it coudl be counted as a photoblog.. to appease me",
+      "body": "on second thought.. the error might be that the 'photo tour' under misc.   ... isnt also listed on the photo blog\r\nor at least it coudl be counted as a photoblog.. to appease me",
       "created_at": "2006-02-14T08:04:21.000Z"
     },
     {
       "author": "--Jeff",
-      "body": "<i>The site isn't working in Firefox for me. It's a big jumble.</i><br/><br/>I ran into this problem during the \"test phase\" <b>Andy</b>.  I cleared FF's cache, and it worked just fine after that...<br/>",
+      "body": "<i>The site isn't working in Firefox for me. It's a big jumble.</i>\r\n\r\nI ran into this problem during the \"test phase\" <b>Andy</b>.  I cleared FF's cache, and it worked just fine after that...\r\n",
       "created_at": "2006-02-14T08:25:41.000Z"
     },
     {
@@ -94,17 +94,17 @@
     },
     {
       "author": "Monkey",
-      "body": "Since when are the ads silly? <br/><br/> we rub some google on our skin our else we see the ads again<br/><br/>that's right, we love ads. no more nonsense about that subject. ;)",
+      "body": "Since when are the ads silly? \r\n\r\n we rub some google on our skin our else we see the ads again\r\n\r\nthat's right, we love ads. no more nonsense about that subject. ;)",
       "created_at": "2006-02-14T14:56:33.000Z"
     },
     {
       "author": "bjork24",
-      "body": "Andy:: Jeff's right. You need to clear your cache.<br/><br/>Nicole:: You need to upgrade to FF 1.5",
+      "body": "Andy:: Jeff's right. You need to clear your cache.\r\n\r\nNicole:: You need to upgrade to FF 1.5",
       "created_at": "2006-02-14T23:57:46.000Z"
     },
     {
       "author": "Caleb",
-      "body": "My mama says that Google ads are ornery because they got all them teeth and no toothbrush.<br/><br/>I use Firefox 5.0 Beta. It has rocket launchers and everything. Yeah, it's pretty sweet.<br/><br/>",
+      "body": "My mama says that Google ads are ornery because they got all them teeth and no toothbrush.\r\n\r\nI use Firefox 5.0 Beta. It has rocket launchers and everything. Yeah, it's pretty sweet.\r\n\r\n",
       "created_at": "2006-02-15T00:10:11.000Z"
     }
   ],

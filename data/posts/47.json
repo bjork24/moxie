@@ -1,7 +1,7 @@
 {
   "id": 47,
   "title": "Revelation, Number One",
-  "body": "<center><img src=\"http://moxie.danchilton.com/pix/grum/76_moxie.gif\"></center><br/>Thar she blows! The Moxie's NEW official logo, designed and submitted by the talented <a href=\"http://www.morawk.com/aaron\" target=\"_blank\">Aaron Scott</a>. Utilizing a typeface from the late 19th century (Victorian/Realist era), Aaron's logo reflects the simple, clean, fun, semi-whimsical, psuedo-retro spunk that is <b>THE MOXIE</b>. For his efforts, Aaron is receiving a GMail invite AND a $50 gift certificate to the website of his choice, as well as having his logo prominently featured at the top of the sidebar. I think the final decision came down to scalability, which Aaron's logo has in spades. It's as easy to visualize on the big screen as it is on letterhead, a plastic cup, or a T-Shirt.<br/><br/>I'd like to again thank everyone who took the time to submit a logo... without you, we wouldn't have received any submissions at all. As you can see by the title of this post, another revelation is coming down the pike. What ever could it be? The true location of Midwestburg? Dan's waist size? The true location of Dan's hat (I bet you saw that one coming a mile off)? You'll just have to wait and read!<br/><br/>By the way, I apologize for the extended break between this post and the last one... last week was a hectic one, to say the least. My parents had to bring my aunt to St. Louis to have an emergency valve expansion procedure performed on her heart. Fortunately, my aunt's operation went off without a hitch and she's now recouping back at home, but I had to push back my intended week of business plan revising to this week. So, as usual, I'll keep everyone posted to new updates, of which there have been a few, but more on that later.",
+  "body": "<center><img src=\"http://moxie.danchilton.com/pix/grum/76_moxie.gif\"></center>\r\nThar she blows! The Moxie's NEW official logo, designed and submitted by the talented <a href=\"http://www.morawk.com/aaron\" target=\"_blank\">Aaron Scott</a>. Utilizing a typeface from the late 19th century (Victorian/Realist era), Aaron's logo reflects the simple, clean, fun, semi-whimsical, psuedo-retro spunk that is <b>THE MOXIE</b>. For his efforts, Aaron is receiving a GMail invite AND a $50 gift certificate to the website of his choice, as well as having his logo prominently featured at the top of the sidebar. I think the final decision came down to scalability, which Aaron's logo has in spades. It's as easy to visualize on the big screen as it is on letterhead, a plastic cup, or a T-Shirt.\r\n\r\nI'd like to again thank everyone who took the time to submit a logo... without you, we wouldn't have received any submissions at all. As you can see by the title of this post, another revelation is coming down the pike. What ever could it be? The true location of Midwestburg? Dan's waist size? The true location of Dan's hat (I bet you saw that one coming a mile off)? You'll just have to wait and read!\r\n\r\nBy the way, I apologize for the extended break between this post and the last one... last week was a hectic one, to say the least. My parents had to bring my aunt to St. Louis to have an emergency valve expansion procedure performed on her heart. Fortunately, my aunt's operation went off without a hitch and she's now recouping back at home, but I had to push back my intended week of business plan revising to this week. So, as usual, I'll keep everyone posted to new updates, of which there have been a few, but more on that later.",
   "author_id": 1,
   "allow_comments": 1,
   "created_at": "2004-08-16T19:58:00.000Z",
@@ -9,7 +9,7 @@
   "comments": [
     {
       "author": "Stephanie",
-      "body": "When the T-shirts are available, let me know...I'll get them for the whole family!<br/><br/>Good logo, too.",
+      "body": "When the T-shirts are available, let me know...I'll get them for the whole family!\r\n\r\nGood logo, too.",
       "created_at": "2004-08-16T21:44:30.000Z"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "author": "Fyse",
-      "body": "Er, the layout's not looking too hot, Dan. Maybe it's just my browser, but what's the sidebar up to? Looks like a missing &lt;/div&gt; to me.<br/><br/>Very cool logo, and it makes me so glad I resisted the temptation to whip one up myself. Bring on the merchandise!",
+      "body": "Er, the layout's not looking too hot, Dan. Maybe it's just my browser, but what's the sidebar up to? Looks like a missing &lt;/div&gt; to me.\r\n\r\nVery cool logo, and it makes me so glad I resisted the temptation to whip one up myself. Bring on the merchandise!",
       "created_at": "2004-08-17T00:25:21.000Z"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "author": "Fyse",
-      "body": "This might be your problem...<br/><br/>#right {<br/>\tfloat: left;<br/>\twidth: 240px;<br/>\tpadding-left: 20px;<br/>}<br/><br/>Should it read 'float: right;' ?",
+      "body": "This might be your problem...\r\n\r\n#right {\r\n\tfloat: left;\r\n\twidth: 240px;\r\n\tpadding-left: 20px;\r\n}\r\n\r\nShould it read 'float: right;' ?",
       "created_at": "2004-08-17T01:55:38.000Z"
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "author": "Fyse",
-      "body": "I knew if I posted my own diagnosis I'd wind up looking foolish. I've used CSS-P in my blog, but in rather a half-arsed way, and I clearly have a lot still to learn. I'll have to have another look at your source code and style sheets. I'm intrigued by what exactly the 'box hack method' is.<br/><br/>Oh, and I can now see your layout in its former glory, perfectly proportioned logo and everything.",
+      "body": "I knew if I posted my own diagnosis I'd wind up looking foolish. I've used CSS-P in my blog, but in rather a half-arsed way, and I clearly have a lot still to learn. I'll have to have another look at your source code and style sheets. I'm intrigued by what exactly the 'box hack method' is.\r\n\r\nOh, and I can now see your layout in its former glory, perfectly proportioned logo and everything.",
       "created_at": "2004-08-17T04:17:23.000Z"
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "author": "whittler",
-      "body": "Get foxy at the Moxie!<br/>In detox? Hit the Mox!<br/>Why go poxy, when you can go Moxie?<br/>You be my proxy, while I'm at the Moxie!<br/><br/>Marketing genius! Absolute gold!",
+      "body": "Get foxy at the Moxie!\r\nIn detox? Hit the Mox!\r\nWhy go poxy, when you can go Moxie?\r\nYou be my proxy, while I'm at the Moxie!\r\n\r\nMarketing genius! Absolute gold!",
       "created_at": "2004-08-17T10:17:52.000Z"
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "author": "ChuckJ",
-      "body": "I liked that logo immediately when Aaron submitted.  Great design and great selection!<br/><br/>Best,<br/><br/>Chuck",
+      "body": "I liked that logo immediately when Aaron submitted.  Great design and great selection!\r\n\r\nBest,\r\n\r\nChuck",
       "created_at": "2004-08-19T13:23:45.000Z"
     },
     {

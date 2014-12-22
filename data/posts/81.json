@@ -1,7 +1,7 @@
 {
   "id": 81,
   "title": "Take that, France!",
-  "body": "<img src=\"http://moxie.danchilton.com/pix/grum/52_natalie3.jpg\" width=\"150\" height=\"150\" alt=\"Hello, my name is Natalie Portman\" title=\"Hello, my name is Natalie Portman\">    <img src=\"http://moxie.danchilton.com/pix/grum/53_audrey1.jpg\" width=\"150\" height=\"150\" alt=\"Bonjour, je m'appelle Audrey Tautou\" title=\"Bonjour, je m'appelle Audrey Tautou\"><br/><br/>Natalie Portman is America's answer to the 10,000 Gigawatt cuteness of Audrey Tautou. Presidents don't stop wars, Natalie Portmans do. Remember that on November 3rd... 2ND... I meant 2nd.",
+  "body": "<img src=\"http://moxie.danchilton.com/pix/grum/52_natalie3.jpg\" width=\"150\" height=\"150\" alt=\"Hello, my name is Natalie Portman\" title=\"Hello, my name is Natalie Portman\">    <img src=\"http://moxie.danchilton.com/pix/grum/53_audrey1.jpg\" width=\"150\" height=\"150\" alt=\"Bonjour, je m'appelle Audrey Tautou\" title=\"Bonjour, je m'appelle Audrey Tautou\">\r\n\r\nNatalie Portman is America's answer to the 10,000 Gigawatt cuteness of Audrey Tautou. Presidents don't stop wars, Natalie Portmans do. Remember that on November 3rd... 2ND... I meant 2nd.",
   "author_id": 1,
   "allow_comments": 1,
   "created_at": "2004-10-27T19:53:06.000Z",
@@ -29,7 +29,7 @@
     },
     {
       "author": "bjork24",
-      "body": "Whittler: how right you are.<br/><br/>Nicki: you're my Amelie!",
+      "body": "Whittler: how right you are.\r\n\r\nNicki: you're my Amelie!",
       "created_at": "2004-10-28T17:08:12.000Z"
     },
     {
