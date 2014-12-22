@@ -1,4 +1,4 @@
-(function($){
+(function(doc){
 
   'use strict';
 
@@ -6,7 +6,8 @@
   var opts = {
     cache     : {},
     title     : 'The Moxie Blog',
-    yield     : $('#js-yield')[0],
+    yield     : doc.querySelectorAll('#js-yield')[0],
+    navToggle : doc.querySelectorAll('#js-nav-toggle')[0],
     dateField : 'created_at'
   };
 
@@ -171,7 +172,7 @@
   function title(arr) {
     arr = arr.filter(function(n) { return n !== undefined; });
     if ( arr.length && arr[0] !== opts.title ) { arr.unshift(opts.title); }
-    document.title = ( arr.length ) ? arr.join(' | ') : opts.title ;
+    doc.title = ( arr.length ) ? arr.join(' | ') : opts.title ;
   }
 
   // simple undefined check
@@ -193,9 +194,33 @@
     else { return month + ' ' + day + ', ' + year + ' @ ' + hour + ':' + mins + am; }
   }
 
+  // events 
+  function events() {
+    opts.navToggle.addEventListener('click', function() {
+      this.parentNode.classList.toggle('open-nav');
+    });
+    var navLinks = doc.querySelectorAll('.m-nav li a');
+    var closeNav = function(){
+      var el = opts.navToggle;
+      if (el.onclick) {
+        el.onclick();
+      } else if (el.click) {
+        el.click();
+      }
+    };
+    for(var i = 0, len = navLinks.length; i < len; i++) {
+      navLinks[i].addEventListener('click', closeNav);
+    }
+  }
+
+  // bind events on doc ready
+  doc.addEventListener('DOMContentLoaded', function(){
+    events();
+  });
+
   // return public api
   return {
-    router : router
+    router : router,
   };
 
-}(qwery)).router();
+}(document)).router();
