@@ -123,8 +123,9 @@
   // get method for partials and data
   function get(file, cb) {
     var ext = ( file.indexOf('data') !== -1 ) ? 'json' : 'html' ;
-    if ( opts.cache[file] ) {
-      cb(opts.cache[file]);
+    var hash = file.replace('/','').replace('.','');
+    if ( !isUndef(opts.cache[hash]) ) {
+      cb(opts.cache[hash]);
     } else {
       file = file + '.' + ext;
       var rq = new XMLHttpRequest();
@@ -132,7 +133,7 @@
       rq.onload = function() {
         if ( rq.status >= 200 && rq.status < 400 ) {
           var data = ( ext === 'json' ) ? JSON.parse(rq.responseText) : rq.responseText ;
-          opts.cache[file] = data;
+          opts.cache[hash] = data;
           cb(data);
         } else {
           throw 'Server error!';
@@ -221,7 +222,7 @@
 
   // return public api
   return {
-    router : router,
+    router : router
   };
 
 }(document)).router();
