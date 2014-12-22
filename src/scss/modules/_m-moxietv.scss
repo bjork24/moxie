@@ -1,0 +1,84 @@
+$m : '.m-moxietv';
+
+// index list
+#{$m}__index {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  @media(min-width: 600px) {
+    @extend %clearfix
+  }
+  li {
+    position: relative;
+    display: block;
+    height: auto;
+    background-size: cover;
+    height: 13rem;
+    margin-bottom: 1.5rem;
+    @media(min-width: 500px) {
+      height: 14rem;
+    }
+    @media(min-width: 600px) {
+      width: 48%;
+      height: 10rem;
+      margin-bottom: 1.2rem;
+      &:nth-child(odd) { float: left; }
+      &:nth-child(even) { float: right; }
+    }
+    a {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.75);
+      color: #FFF;
+      padding: 1rem;
+    }
+    h3 {
+      margin: 0;
+      font-family: $font-body;
+      font-size: 1.75rem;
+      line-height: 1.1;
+      @media(min-width: 600px) {
+        font-size: 1.3rem;
+      }
+    }
+    p {
+      margin: .2rem 0 0 0;
+      font-size: .8rem;
+      color: #AAA;
+    }
+    &:hover {
+      a {
+        background-color: transparent;
+      }
+      h3, p {
+        display: none;
+      }
+    }
+  }
+}
+
+// entry
+#{$m}__entry {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    li {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    b {
+      display: block;
+    }
+  }
+}
+
+// video embed
+#{$m}__video {
+  @include scale-element(4/3);
+  margin: 2rem 0;
+}

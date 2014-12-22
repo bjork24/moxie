@@ -1,2 +1,9 @@
-<h1>{{ title }}</h1>
-<h3>Written by <a href="author/{{ author_id }}">{{ author }} on {{ time }}</a></h3>
+<div class="m-moxietv__entry">
+  <h1>{{ title }}</h1>
+  <div class="m-moxietv__video">
+    {{{ embed }}}
+  </div>
+  <p>{{{ body }}}</p>
+  <h3>Released on {{ time }}</h3>
+  {{{ credits }}}
+</div>

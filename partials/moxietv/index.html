@@ -1,8 +1,13 @@
-<ol>
+<h1>MoxieTV episodes</h1>
+<p>Produced throughout 2006, MoxieTV was our attempt at making a weekly video for the theater. We didn't quite hit the stride we were hoping for, but we had fun along the way.</p>
+
+<ol class="m-moxietv__index">
   {{#episode}}
-  <li>
-    <h3><a href="/moxietv/{{ id }}">{{ title }}</a></h3>
-    <h6>{{ time }}</h6>
+  <li style="background-image: url(/pix/moxietv/{{ thumb }})">
+    <a href="/moxietv/{{ id }}">
+      <h3>{{ title }}</h3>
+      <p>{{ time }}</p>
+    </a>
   </li>
   {{/episode}}
 </ol>

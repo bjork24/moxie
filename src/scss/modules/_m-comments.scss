@@ -12,21 +12,18 @@ $m : '.m-comments';
         @extend %clearfix;
       }
     }
-    h4 {
+    b {
       margin: 0;
-      display: inline;
       font-size: 1rem;
       &:after {
         content: ':';
-        display: inline;
-        margin-right: .25rem;
+        margin-right: .15rem;
       }
       @media(min-width: 700px) {
         float: left;
         display: block;
         width: 25%;
         text-align: right;
-        font-size: .9rem;
         &:after {
           content: '';
           margin-right: 0;
@@ -42,10 +39,9 @@ $m : '.m-comments';
         width: 70%;
       }
     }
-    h6 {
+    i {
+      display: block;
       margin: .25rem 0 0 0;
-      font-family: $font-body;
-      font-weight: 400;
       font-size: .7rem;
       color: lighten($color-black, 25%);
       @media(min-width: 700px) {
