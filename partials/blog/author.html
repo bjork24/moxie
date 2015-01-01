@@ -1,0 +1,20 @@
+<div class="m-archive">
+  <h1>Posts by {{name}}</h1>
+  {{#months}}
+  <div class="month">
+    <div class="meta">
+      <h4>{{date}}</h4>
+      <span class="comments">{{comments}} comments</span>
+      <span class="posts">{{count}} posts</span>
+    </div>
+    <ol class="posts">
+      {{#posts}}
+      <li>
+        <span class="day">{{day}}</span>
+        <a class="title" href="/post/{{id}}">{{title}} <span class="comments">{{comments}}</span></a>
+      </li>
+      {{/posts}}
+    </ol>
+  </div>
+  {{/months}}
+</div>

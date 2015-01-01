@@ -23,6 +23,8 @@
     page('/phlog/:id', controller.phlog.entry);
     page('/archive', controller.blog.archive);
     page('/archive/:year', controller.blog.archive);
+    page('/author/:id', controller.blog.author);
+    page('/category/:id', controller.blog.category);
     page('/post/:id', controller.blog.entry);
     page('*', controller.notFound);
     page({ hashbang: true });
@@ -79,7 +81,13 @@
       archive : function(ctx) {
         var year = parseInt(ctx.params.year) || 2004;
         title(['Archive']);
-        archive(year);
+        archive.byYear(year);
+      },
+      author : function(ctx) {
+        archive.byId(ctx.params.id, 'author');
+      },
+      category : function(ctx) {
+        archive.byId(ctx.params.id, 'category');
       },
       entry : function(ctx) {
         render({
@@ -94,31 +102,65 @@
     }
   };
 
-  // build archive page
-  var archive = function(year) {
-    var archiveData = { 'year' : year, 'months' : [] };
-    get('data/archive/year/' + year, function(data) {
-      for ( var month in data ) {
-        var monthInt = parseInt(month) - 1;
-        if ( data[month].length ) {
-          var d = new Date(year, monthInt);
+  // build archive page by year
+  var archive = {
+    byYear : function(year) {
+      var archiveData = { 'year' : year, 'months' : [] };
+      get('data/archive/year/' + year, function(data) {
+        for ( var month in data ) {
+          var monthInt = parseInt(month) - 1;
+          if ( data[month].length ) {
+            var d = new Date(year, monthInt);
+            var comments = 0;
+            for ( var i = 0, len = data[month].length; i < len; i++ ) {
+              comments += data[month][i].comments;
+            }
+            var collection = {
+              date : time(d, 'my'),
+              count : data[month].length,
+              comments : comments,
+              posts : data[month] 
+            };
+            archiveData.months.push(collection);
+          }
+        }
+        get('partials/blog/archive', function(html) {
+          opts.yield.innerHTML = Mustache.render(html, archiveData);
+          win.scrollTo(0,0);
+        });
+      });
+    },
+    byId : function(id, type) {
+      var archiveData = { 'months' : [] };
+      get('data/archive/' + type + '/' + id, function(data) {
+        for ( var month in data ) {
+          if ( month === 'name' || month === 'desc' ) { continue; }
           var comments = 0;
           for ( var i = 0, len = data[month].length; i < len; i++ ) {
             comments += data[month][i].comments;
           }
           var collection = {
-            date : time(d, 'my'),
+            date : month,
             count : data[month].length,
             comments : comments,
             posts : data[month] 
           };
           archiveData.months.push(collection);
         }
-      }
-      get('partials/blog/archive', function(html) {
-        opts.yield.innerHTML = Mustache.render(html, archiveData);
+        if ( type === 'author' ) {
+          title(['Posts by ' + data.name]);
+          archiveData.name = data.name;
+        } else if ( type === 'category' ) {
+          title(['Posts about ' + data.name]);
+          archiveData.name = data.name;
+          archiveData.desc = data.desc;
+        }
+        get('partials/blog/' + type, function(html) {
+          opts.yield.innerHTML = Mustache.render(html, archiveData);
+          win.scrollTo(0,0);
+        });
       });
-    });
+    }
   };
 
   // get method for partials and data

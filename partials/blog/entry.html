@@ -8,6 +8,11 @@
   <section>
     {{{ cleanBody }}}
   </section>
+  <ul class="categories">
+    {{#categories}}
+      <li><a href="/category/{{id}}">{{name}}</a></li>
+    {{/categories}}
+  </ul>
   <section class="m-comments">
     <a name="comments"></a>
     <h2>{{ comments.length }} comments</h2>

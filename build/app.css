@@ -653,6 +653,22 @@ a {
         width: 100%;
         margin: 0 auto -1.5rem auto; } }
 
+.m-entry .categories {
+  list-style-type: none;
+  margin: 1.5rem 0;
+  padding: 0; }
+  @media (min-width: 500px) {
+    .m-entry .categories li {
+      display: inline-block; }
+      .m-entry .categories li:after {
+        content: ','; }
+      .m-entry .categories li:last-child:after {
+        display: none; } }
+  .m-entry .categories:before {
+    content: 'Categories:';
+    display: block;
+    font-family: 'Playfair Display', serif; }
+
 .m-archive .years {
   list-style-type: none;
   margin: -1rem 0 1.5rem 0;
