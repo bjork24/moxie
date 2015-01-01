@@ -96,7 +96,7 @@
 
   // build archive page
   var archive = function(year) {
-    var archiveData = { 'months' : [] };
+    var archiveData = { 'year' : year, 'months' : [] };
     get('data/archive/year/' + year, function(data) {
       for ( var month in data ) {
         var monthInt = parseInt(month) - 1;
