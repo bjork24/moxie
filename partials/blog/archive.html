@@ -1,5 +1,14 @@
 <div class="m-archive">
   <h1>{{year}} posts</h1>
+  <ol class="years">
+    <li><a href="/archive/2004">04</a></li>
+    <li><a href="/archive/2005">05</a></li>
+    <li><a href="/archive/2006">06</a></li>
+    <li><a href="/archive/2007">07</a></li>
+    <li><a href="/archive/2008">08</a></li>
+    <li><a href="/archive/2009">09</a></li>
+    <li><a href="/archive/2010">10</a></li>
+  </ol>
   {{#months}}
   <div class="month">
     <div class="meta">
@@ -7,7 +16,7 @@
       <span class="comments">{{comments}} comments</span>
       <span class="posts">{{count}} posts</span>
     </div>
-    <ol>
+    <ol class="posts">
       {{#posts}}
       <li>
         <span class="day">{{day}}</span>

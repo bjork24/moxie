@@ -1,5 +1,22 @@
 $m : '.m-archive';
 
+// year nav
+#{$m} .years {
+  list-style-type: none;
+  margin: -1rem 0 1.5rem 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin-right: .75rem;
+    a:before {
+      content: "'";
+      @media(min-width: 500px) {
+        content: '20';
+      }
+    }
+  }
+}
+
 // month seperator
 #{$m} .month {
   @extend %clearfix;
@@ -45,7 +62,7 @@ $m : '.m-archive';
 }
 
 // post list
-#{$m} ol {
+#{$m} .posts {
   list-style-type: none;
   margin: 0;
   padding: 0;
