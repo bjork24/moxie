@@ -39,6 +39,7 @@ $m : '.m-comments';
       & > p {
         margin: 0;
         display: inline;
+        word-wrap: break-word;
         @media(min-width: 700px) {
           float: right;
           display: block;

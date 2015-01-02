@@ -483,7 +483,8 @@ a {
             margin-right: 0; } }
     .m-comments ol li > p {
       margin: 0;
-      display: inline; }
+      display: inline;
+      word-wrap: break-word; }
       @media (min-width: 700px) {
         .m-comments ol li > p {
           float: right;
@@ -643,15 +644,23 @@ a {
 
 .m-entry section {
   font-size: 1rem; }
+  .m-entry section br {
+    display: block;
+    content: '';
+    margin: 1.5rem 0; }
   .m-entry section img {
     width: 100vw;
     max-width: 500px;
     display: block;
-    margin: 0 -1.5rem -1.5rem -1.5rem; }
+    margin: 0 -1.5rem; }
     @media (min-width: 500px) {
       .m-entry section img {
         width: 100%;
-        margin: 0 auto -1.5rem auto; } }
+        margin: 0 auto; } }
+  .m-entry section ul br, .m-entry section ol br {
+    margin: 0; }
+  .m-entry section ul li, .m-entry section ol li {
+    margin: 1rem 0; }
 
 .m-entry .categories {
   list-style-type: none;

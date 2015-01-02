@@ -160,8 +160,8 @@
           win.scrollTo(0,0);
         });
       });
-    }
-  };
+}
+};
 
   // get method for partials and data
   function get(file, cb) {
